@@ -1,4 +1,6 @@
 import preprocess from 'svelte-preprocess';
+import path from "path"
+
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
@@ -9,22 +11,30 @@ const config = {
 			css: {
 				preprocessorOptions: {
 					scss: {
-						additionalData: '@import "src/variables.scss";'
+						additionalData: '@import "src/styles/variables.scss";'
 					}
-				}
-			}
-		}
-	},
+        }
+      },
 
-	preprocess: [
-		preprocess({
-			postcss: true,
+      resolve: {
+        alias: {
+          "@": path.resolve("src"),
+          "@styles": path.resolve("src/styles"),
+          "@components": path.resolve("src/components"),
+        }
+      }
+    }
+  },
 
-			scss: {
-				prependData: '@import "src/variables.scss";'
-			}
-		})
-	]
+  preprocess: [
+    preprocess({
+      postcss: true,
+
+      scss: {
+        prependData: '@import "src/styles/variables.scss";'
+      }
+    })
+  ]
 };
 
 export default config;

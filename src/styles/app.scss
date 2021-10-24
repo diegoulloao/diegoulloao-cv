@@ -1,0 +1,118 @@
+/*
+|-----------------------------------------------------------------------------
+| Basics
+|-----------------------------------------------------------------------------
+|
+| CSS frameworks, fonts and importing.
+|
+*/
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600&display=swap');
+
+// Tailwind
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+|-----------------------------------------------------------------------------
+| Color Pallette
+|-----------------------------------------------------------------------------
+|
+| All type colors used by this page.
+|
+*/
+
+$black: #000000;
+$white: #ffffff;
+$purple: #ff4ecd;
+$cyan: #88ffea;
+$blue: #1a75ff;
+
+/*
+|-----------------------------------------------------------------------------
+| Gradients
+|-----------------------------------------------------------------------------
+|
+| Contains gradients types used by any element.
+|
+*/
+
+$gradient-primary: linear-gradient(90.69deg, $cyan 13.42%, $purple 42.37%, $blue 103.09%);
+
+/*
+|-----------------------------------------------------------------------------
+| Mixins
+|-----------------------------------------------------------------------------
+|
+| Reusable parts.
+|
+*/
+
+@mixin tailwind-extend-hover($name, $color) {
+  [class*="hover:text-#{$name}"] a,
+  a[class*="hover:text-#{$name}"],
+  a[class*="hover:text-#{$name}"]:visited {
+    &:hover,
+    &:link:hover,
+    &:visited:hover {
+      color: $color !important;
+    }
+  }
+}
+
+/*
+|-----------------------------------------------------------------------------
+| General
+|-----------------------------------------------------------------------------
+|
+| Contains general rules for all the page.
+|
+*/
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  background-color: $black;
+  color: $white;
+}
+
+::selection {
+  background-color: $purple;
+  color: $black;
+}
+
+a:link,
+a:visited {
+  @apply transition;
+}
+
+/*
+|-----------------------------------------------------------------------------
+| Classes
+|-----------------------------------------------------------------------------
+|
+| Available classes to use.
+|
+*/
+
+.bg-gradient-primary {
+  background-image: $gradient-primary;
+}
+
+.text-purple {
+  color: $purple;
+}
+
+.text-cyan {
+  color: $cyan;
+}
+
+.blue {
+  color: $blue;
+}
+
+// Classes from mixins
+@include tailwind-extend-hover("cyan", $cyan);
+@include tailwind-extend-hover("purple", $purple);
+@include tailwind-extend-hover("blue", $blue);
