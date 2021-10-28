@@ -96,10 +96,12 @@ a:visited {
 |
 */
 
+// Gradients
 .bg-gradient-primary {
   background-image: $gradient-primary;
 }
 
+// Text Color
 .text-purple {
   color: $purple;
 }
@@ -110,6 +112,35 @@ a:visited {
 
 .blue {
   color: $blue;
+}
+
+// Backgrounds
+.bg-purple {
+  background-color: $purple;
+}
+
+.bg-cyan {
+  background-color: $cyan;
+}
+
+.bg-blue {
+  background-color: $blue;
+}
+
+// Lists
+ul.dash-list {
+  @apply list-none;
+  @apply ml-1;
+
+  & > li {
+    text-indent: -5px;
+
+    &::before {
+      content: "-";
+      @apply mr-4;
+      @apply text-gray-500;
+    }
+  }
 }
 
 // Classes from mixins

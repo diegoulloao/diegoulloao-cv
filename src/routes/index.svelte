@@ -2,6 +2,12 @@
   // Transitions
   import { fly } from "svelte/transition"
 
+  // Store
+  import { showVideoBackground } from "@stores/app.js"
+
+  // Background Video
+  showVideoBackground.set(true)
+
   // Variables
   let showPresentation = false
 
@@ -17,7 +23,7 @@
 <main id="intro" class="flex-grow flex flex-col justify-center">
   <!-- Presentation -->
   {#if showPresentation}
-    <section class="flex gap-x-20" transition:fly="{{ y: -200, duration: 2000 }}">
+    <section class="flex gap-x-20" in:fly="{{ y: -200, duration: 2000 }}">
       <!-- Profile -->
       <div class="rounded-full bg-gradient-primary p-1.5">
         <img src="/diego.jpg" class="rounded-full" style="width:550px" alt="diego">
@@ -30,7 +36,7 @@
         <h3 class="text-3xl text-gray-500 mt-3">Fullstack Developer.</h3>
 
         <div class="mt-8 text-gray-500 space-y-4">
-          <p>
+          <p class="text-lg">
             I'm a Fullstack Developer and Autodidact Programmer since my 16 years old. With 8 years of experience accumulated today I dedicate myself to develop TI technologies specializing in frontend applications.
           </p>
 
@@ -43,7 +49,7 @@
   {/if}
 
   <div class="fixed py-8 flex justify-center bottom-0 right-0 left-0">
-    <a href="/home" class="hover:text-cyan">- Read more -</a>
+    <a href="/home" class="text-purple hover:text-white">- Read more -</a>
   </div>
 
   <!-- Hidden: for preload image -->
