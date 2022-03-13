@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Frontend",
+    "items": ["React", "Next.js", "Gatsby", "Svelte"]
+  },
+  {
+    "title": "Backend",
+    "items": ["Node.js", "Express", "Sequelize", "MySQL"]
+  },
+  {
+    "title": "Others",
+    "items": ["Jest", "Playwright", "Git/Github", "Vercel"]
+  },
+  {
+    "title": "Languages",
+    "items": ["Typescript", "Javascript", "GraphQL", "Bash"]
+  }
+]

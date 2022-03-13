@@ -1,10 +1,12 @@
-  // Components
-  import Nav from "@components/Nav.svelte"
-  import Video from "@components/Video.svelte"
-  import Project from "@components/Project.svelte"
+// Components
+import Nav from "@components/Nav.svelte"
+import Skill from "@components/SKill.svelte"
+import Project from "@components/Project.svelte"
+import Experience from "@components/Experience.svelte"
 
-  export {
-    Nav,
-    Video,
-    Project
-  }
+export {
+  Nav,
+  Skill,
+  Project,
+  Experience
+}

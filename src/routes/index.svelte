@@ -1,10 +1,16 @@
 <script>
-  import { Project } from "@components"
+  // Components
+  import { Skill, Project, Experience } from "@components"
+
+  // Data sources
+  import skills from "@data/skills.json"
+  import projects from "@data/projects.json"
+  import experience from "@data/experience.json"
 </script>
 
 <!-- Head -->
 <svelte:head>
-  <title>Diego Ulloa</title>
+  <title>Diego Ulloa - Fullstack Developer</title>
 </svelte:head>
 
 <!-- Index Page -->
@@ -36,44 +42,9 @@
       <h3 class="text-3xl mb-3 uppercase text-gray-200 bg-title">Skills</h3>
 
       <div class="flex skills gap-16">
-        <div class="front-end">
-          <h4 class="text-xl mb-2">Frontend</h4>
-          <ul class="text-gray-200">
-            <li>React</li>
-            <li>Next.js</li>
-            <li>Gatsby</li>
-            <li>Svelte</li>
-          </ul>
-        </div>
-
-        <div class="back-end">
-          <h4 class="text-xl mb-2">Backend</h4>
-          <ul class="text-gray-200">
-            <li>Node.js</li>
-            <li>Express</li>
-            <li>Sequelize</li>
-            <li>MySQL</li>
-          </ul>
-        </div>
-
-        <div class="others">
-          <h4 class="text-xl mb-2">Others</h4>
-          <ul class="text-gray-200">
-            <li>Jest</li>
-            <li>Playwright</li>
-            <li>Git/Github</li>
-            <li>Vercel</li>
-          </ul>
-        </div>
-
-        <div class="languages">
-          <h4 class="text-xl mb-2">Languages</h4>
-          <ul class="text-gray-200">
-            <li>Typescript</li>
-            <li>Javascript</li>
-            <li>GraphQL</li>
-          </ul>
-        </div>
+        {#each skills as s}
+          <Skill skill={s} />
+        {/each}
       </div>
     </div>
   </div>
@@ -83,69 +54,34 @@
       <h2 class="text-3xl uppercase bg-title mb-3">Contributions</h2>
 
       <div class="projects-list grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-3">
-        <Project
-          owner="bananasplit-js"
-          repo="bananasplit-js"
-          thumbnail="https://bananasplit.js.org/assets/images/bananasplit-logo.png"
-          description="an express.js superset template that brings to you a background to quickly develop your app"
-          url="https://github.com/bananasplit-js/bananasplit-js"
-          classes="h-full"
-        />
-
-        <Project
-          owner="bananasplit-js"
-          repo="router-dex"
-          thumbnail="https://raw.githubusercontent.com/diegoulloao/router-dex/dev/public/capture.png"
-          description="route and middleware inspector for express >= 4"
-          url="https://github.com/bananasplit-js/router-dex"
-          classes="h-full"
-        />
-
-        <Project
-          owner="diegoulloao"
-          repo="ioquake3-mac-install"
-          thumbnail="https://github.com/diegoulloao/ioquake3-mac-install/raw/master/logo.png"
-          description="install ioquake3 on macos in one command (now m1 native support)"
-          url="https://github.com/diegoulloao/ioquake3-mac-install"
-          classes="h-full"
-        />
-
-        <Project
-          owner="diegoulloao"
-          repo="ensambler-vscode-theme"
-          thumbnail="https://i.imgur.com/J9jjFfp.png"
-          description="a beautiful vscode theme, now available at the extension marketplace"
-          url="https://github.com/diegoulloao/ensambler-vscode-theme"
-          classes="h-full"
-        />
-
-        <Project
-          owner="bananasplit.js"
-          repo="bananasplit-client"
-          thumbnail="https://bananasplit.js.org/assets/images/bananasplit-client.svg"
-          description="a bananasplit-js cli for command-line"
-          url="https://github.com/bananasplit-js/bananasplit-client"
-          classes="h-full"
-        />
-
-        <Project
-          owner="diegoulloao"
-          repo="yup-es"
-          thumbnail="https://cdn1.iconfinder.com/data/icons/logotypes/32/github-64.png"
-          description="es-es locale for yup"
-          url="https://github.com/diegoulloao/yup-es"
-          classes="h-full"
-        />
-
-        <Project
-          owner="thedenisnikulin"
-          repo="vim-cyberpunk"
-          thumbnail="https://github.com/thedenisnikulin/vim-cyberpunk/raw/master/screenshots/cyberpunk.png"
-          description="cyberpunk colorscheme for vim, includes vim-airline and vim-lighline theme (which I contributed for)"
-          url="https://github.com/thedenisnikulin/vim-cyberpunk"
-          classes="h-full"
-        />
+        {#each projects as p}
+          <Project
+            owner={p.owner}
+            repo={p.repo}
+            thumbnail={p.thumbnail}
+            description={p.description}
+            url={p.url}
+            classes="h-full"
+          />
+        {/each}
       </div>
+    </div>
+  </div>
+
+  <div class="experience mt-10 text-right">
+    <h2 class="bg-title text-3xl uppercase">Experience</h2>
+
+    <div class="experience list">
+      {#each experience as e}
+        <Experience
+          company={e.company}
+          logo={e.logo}
+          period={e.period}
+          position={e.position}
+          location={e.location}
+          description={e.description}
+        />
+      {/each}
     </div>
   </div>
 </main>

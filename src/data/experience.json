@@ -1,0 +1,42 @@
+[
+  {
+    "company": "Unboxable",
+    "logo": "https://media-exp1.licdn.com/dms/image/C4D0BAQHRXS_LraLO1w/company-logo_200_200/0/1636470330216?e=1655337600&v=beta&t=JFhWnsXcrEWM_JKPKc_j5-IPOj7WBP29pOCz9hFzXoY",
+    "period": "2021-2022",
+    "position": "Frontend Developer",
+    "location": "Tel Aviv, Israel [remote]",
+    "description": "Javascript (ES6) and Typescript, Sass, React, Next.js, Gatsby, Graphql, Jest for e2e testing. Services like Git/Github, Vercel and Netlify CI/CD, Github Actions. AWS. Other skills: Node.js and Bash programming for process automation. CLI tools development"
+  },
+  {
+    "company": "Ensambler",
+    "logo": "https://media-exp1.licdn.com/dms/image/C4E0BAQEJjnZ8dS_laQ/company-logo_200_200/0/1551842934269?e=1655337600&v=beta&t=EKzC_Tf8juPXh5v650abo2P8VOh9Rqi-OCVtcEimmGY",
+    "period": "2019-2020",
+    "position": "Founder, Lead & Backend Developer",
+    "location": "Santiago, Chile",
+    "description": "PHP, Typescript, Javascript, Bash and Nodejs. Tools like NPM, Git/Github and AWS. Frameworks like Laravel and Expressjs. Databases: MySQL. Other skills: TDD testing with Laravel, Process Automation with Bash and Nodejs. Software Documentation"
+  },
+  {
+    "company": "Neoproyex",
+    "logo": "https://mir-s3-cdn-cf.behance.net/user/138/122388.53ab9683ab10b.png",
+    "period": "2018-2019",
+    "position": "Fullstack Developer",
+    "location": "Santiago, Chile",
+    "description": "HTML5, CSS3, Sass, Javascript (Vanilla),  PHP, MySQL and Wordpress"
+  },
+  {
+    "company": "Freelancer",
+    "logo": "/diego.jpg",
+    "period": "2013-2015",
+    "position": "Fullstack Developer",
+    "location": "Angol, Chile",
+    "description": "HTML4, CSS2, Javascript / jQuery and Ajax. PHP/PDO and MySQL databases"
+  },
+  {
+    "company": "Neoproyex",
+    "logo": "https://mir-s3-cdn-cf.behance.net/user/138/122388.53ab9683ab10b.png",
+    "period": "2011-2013",
+    "position": "Fullstack Developer",
+    "location": "Valdivia, Chile [remote]",
+    "description": "HTML4, CSS2, Javascript/jQuery, Ajax, Python and PHP. Frameworks like Django. Databases like MySQL and MSSQL"
+  }
+]

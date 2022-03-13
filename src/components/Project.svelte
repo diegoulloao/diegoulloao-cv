@@ -7,12 +7,12 @@
   <!-- Card -->
   <a
       class="block w-auto border border-gray-800 p-5 hover:bg-gray-900 duration-100 {classes}"
-    href="{url}"
+    href={url}
     target="_blank"
   >
     <!-- Header -->
     <div class="flex flex-row">
-      <img src="{thumbnail}" class="w-8" alt="" />
+      <img src={thumbnail} class="w-8" alt="" />
 
       <div class="ml-3 flex flex-col justify-center">
         <div class="flex">
@@ -23,7 +23,7 @@
     </div>
 
     <!-- Content -->
-    <p class="text-xs text-gray-500 mt-3 w-auto max-w-sm">
+    <p class="text-sm text-gray-500 mt-3 w-auto max-w-sm">
       { description }
     </p>
   </a>
