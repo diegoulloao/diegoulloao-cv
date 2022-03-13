@@ -1,9 +1,10 @@
 <script>
   // Props
-  export let company, logo, period, position, location, description
+  export let company, logo, period, position, location, description, classes=""
 </script>
 
-<div class="experience-item flex justify-end mt-8">
+<!-- Experience -->
+<div class="experience-item flex justify-end {classes}">
   <div class="experience-description flex justify-end items-center w-4/6 border-r border-gray-800 pr-12">
     <p class="text-sm max-w-3xl text-gray-500">{description}</p>
   </div>

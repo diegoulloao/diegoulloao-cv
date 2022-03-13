@@ -1,8 +1,15 @@
 <script>
   // Props
-  export let description, owner, repo, thumbnail, url, classes=""
+  export let
+    description,
+    owner,
+    repo,
+    url,
+    classes="",
+    thumbnail="https://cdn1.iconfinder.com/data/icons/logotypes/32/github-64.png"
 </script>
 
+<!-- Project -->
 <div class="project-card">
   <!-- Card -->
   <a

@@ -26,8 +26,8 @@
       </div>
 
       <p class="text-gray-600">
-        Fullstack Developer and Autodidact Programmer since my 16 years old.
-        <br />
+        Fullstack Developer, Open Source contributor and Autodidact Programmer since my 16 years old.
+        <br /><br />
         With 8 years of experience accumulated today I dedicate myself to develop TI technologies specializing in frontend applications.
       </p>
 
@@ -80,6 +80,7 @@
           position={e.position}
           location={e.location}
           description={e.description}
+          classes="mt-8"
         />
       {/each}
     </div>
