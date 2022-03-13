@@ -35,7 +35,7 @@
     <div class="row-2 max-w-2xl text-right text-gray-600">
       <h3 class="text-3xl mb-3 uppercase text-gray-200 bg-title">Skills</h3>
 
-      <div class="flex skills gap-20">
+      <div class="flex skills gap-16">
         <div class="front-end">
           <h4 class="text-xl mb-2">Frontend</h4>
           <ul class="text-gray-200">
@@ -71,6 +71,7 @@
           <ul class="text-gray-200">
             <li>Typescript</li>
             <li>Javascript</li>
+            <li>GraphQL</li>
           </ul>
         </div>
       </div>
