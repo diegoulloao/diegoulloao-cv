@@ -101,6 +101,15 @@ a:visited {
   background-image: $gradient-primary;
 }
 
+// Titles
+.bg-title {
+  background-color: $purple;
+  color: $black;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: inline-block !important;
+}
+
 // Text Color
 .text-purple {
   color: $purple;

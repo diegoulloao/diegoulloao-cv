@@ -9,6 +9,7 @@
   showVideoBackground.set(false)
 </script>
 
+<!-- Home Page -->
 <main id="intro" class="flex-grow flex flex-col justify-center gap-y-16" transition:fade>
   <div class="flex gap-x-32">
     <!-- Experience -->

@@ -1,7 +1,7 @@
   <nav class="mb-8 flex justify-between">
     <div class="nav-list space-x-12 hover:text-blue">
       <a href="/home">Home</a>
-      <a href="/about-me">About</a>
+      <a href="/#">Resume</a>
       <a href="/contact">Contact</a>
     </div>
 
