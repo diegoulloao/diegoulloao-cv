@@ -1,12 +1,12 @@
 <script>
   // Props
-  export let description, owner, repo, thumbnail, url
+  export let description, owner, repo, thumbnail, url, classes=""
 </script>
 
-<div class="flex items-center justify-center">
+<div class="project-card">
   <!-- Card -->
   <a
-    class="w-auto bg-slate-900 border border-gray-800 p-5 shadow hover:bg-gray-900 duration-100"
+      class="block w-auto border border-gray-800 p-5 hover:bg-gray-900 duration-100 {classes}"
     href="{url}"
     target="_blank"
   >
