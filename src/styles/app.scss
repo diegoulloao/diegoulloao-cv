@@ -151,6 +151,11 @@ ul.dash-list {
   }
 }
 
+// Others
+.caret-purple {
+  caret-color: $purple;
+}
+
 // Classes from mixins
 @include tailwind-extend-hover("cyan", $cyan);
 @include tailwind-extend-hover("purple", $purple);
