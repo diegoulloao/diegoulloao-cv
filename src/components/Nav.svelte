@@ -2,8 +2,8 @@
 <nav class="mb-8 flex justify-between">
   <div class="nav-list space-x-12 hover:text-blue">
     <a href="/">Home</a>
-    <a href="/#download-cv">Resume</a>
     <a href="/contact">Contact</a>
+    <a class="text-purple" href="/#download-cv">Resume</a>
   </div>
 
   <div class="social space-x-12 text-gray-500 hover:text-white">
