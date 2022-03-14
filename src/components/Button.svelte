@@ -1,9 +1,11 @@
 <script>
   // Props
-  export let text, href="#!", target="", classes="", action
+  export let text, action, href="#!", target="", type="primary", classes=""
 
   // On Click
   const onClick = (e) => {
+    if (typeof action !== "function") return true
+    
     e.preventDefault()
     return action(e)
   }
@@ -15,8 +17,9 @@
   {target}
   on:click={onClick}
   class={[
-    "button bg-purple text-black px-4 py-3 transition duration-100 ease-in-out",
+    "button px-4 py-3 transition duration-100 ease-in-out",
     "hover:bg-transparent hover:text-gray-200",
+    (type === "freeze") ? "border border-purple text-gray-200" : "bg-purple text-black",
     classes
   ].join(" ")}
 >

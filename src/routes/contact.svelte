@@ -2,24 +2,44 @@
   // Components
   import { Button } from "@components"
 
+  // Form States
+  let form, sendingForm = false, submitClicked = false
+  let name, subject, message
+
   // Actions
   const onSendForm = async () => {
-    // Contact form DOM
-    const form = document.getElementById("contact-form")
+    // Change submit clicked state to true
+    if (!submitClicked) submitClicked = true
 
-    // Contact form data
-    const formData = new FormData(form)
+    // Escape if form values are not filled
+    if (!name || !subject || !message) {
+      return false
+    }
+
+    // Change sendingForm state to true
+    sendingForm = true
 
     // Send form to FormSpree
-    const response = await fetch("https://formspree.io/f/mpzlzjnv", {
+    /*const response = await fetch("https://formspree.io/f/mpzlzjnv", {
       method: "post",
-      body: formData,
+      body: { name, subject, message },
       headers: { "Accept": "application/json" }
-    })
+    })*/
 
-    console.log(response)
+    // TODO: remove
+    await new Promise((resolve) => setTimeout(resolve, 3000))
+    const response = { ok: true }
 
-    return false
+    // Change sendingForm status to false
+    sendingForm = false
+
+    // User output
+    if (response.ok) {
+      console.log("sent!")
+
+    } else {
+      console.log("error...")
+    }
   }
 </script>
 
@@ -36,15 +56,17 @@
   </h2>
 
   <!-- Form -->
-  <form id="contact-form" class="w-full max-w-xl mx-auto mt-20">
+  <form bind:this={form} id="contact-form" class="w-full max-w-xl mx-auto mt-20">
     <!-- Name -->
     <div class="md:flex items-center">
       <div class="w-full flex flex-col">
         <label for="name" class="leading-none text-gray-500">Name</label>
         <input
-          required
+          bind:value={name}
           id="name"
+          name="name"
           type="text"
+          class:border-red-500={submitClicked && !name}
           class="leading-none text-gray-50 p-3 focus:outline-none mt-4 bg-black border border-gray-800 caret-purple"
         />
       </div>
@@ -55,9 +77,11 @@
       <div class="w-full flex flex-col">
         <label for="subject" class="leading-none text-gray-500">Subject</label>
         <input
-          required
+          bind:value={subject}
           id="subject"
+          name="subject"
           type="text"
+          class:border-red-500={submitClicked && !subject}
           class="leading-none text-gray-50 p-3 focus:outline-none mt-4 bg-black border border-gray-800 caret-purple"
         />
       </div>
@@ -67,16 +91,22 @@
     <div class="w-full flex flex-col mt-8">
       <label for="message" class="leading-none text-gray-500">Message</label>
       <textarea
-        required
+        bind:value={message}
         id="message"
+        name="message"
         type="text"
+        class:border-red-500={submitClicked && !message}
         class="h-40 text-base leading-none text-gray-50 p-3 focus:outline-none mt-4 bg-black border-gray-800 border resize-none caret-purple"
       />
     </div>
 
     <!-- Send button -->
     <div class="text-center mt-16">
-      <Button text="Send message" action={onSendForm} />
+      {#if !sendingForm}
+        <Button text="Send message" action={onSendForm} />
+      {:else}
+      <Button text="Sending..." type="freeze" action={() => false} />
+      {/if}
     </div>
   </form>
 </main>
