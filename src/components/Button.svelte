@@ -1,14 +1,25 @@
 <script>
   // Props
-  export let text, href="#!", target="", classes=""
+  export let text, href="#!", target="", classes="", action
+
+  // On Click
+  const onClick = (e) => {
+    e.preventDefault()
+    return action(e)
+  }
 </script>
 
 <!-- Button -->
-<a {href} {target} class={[
-  "button bg-purple text-black px-4 py-3 transition duration-100 ease-in-out",
-  "hover:bg-transparent hover:text-gray-200",
-  classes
-].join(" ")}>
+<a
+  {href}
+  {target}
+  on:click={onClick}
+  class={[
+    "button bg-purple text-black px-4 py-3 transition duration-100 ease-in-out",
+    "hover:bg-transparent hover:text-gray-200",
+    classes
+  ].join(" ")}
+>
   {text}
 </a>
 
