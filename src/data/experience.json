@@ -2,7 +2,7 @@
   {
     "company": "Unboxable",
     "logo": "https://media-exp1.licdn.com/dms/image/C4D0BAQHRXS_LraLO1w/company-logo_200_200/0/1636470330216?e=1655337600&v=beta&t=JFhWnsXcrEWM_JKPKc_j5-IPOj7WBP29pOCz9hFzXoY",
-    "period": "2021-2022",
+    "period": "2021",
     "position": "Frontend Developer",
     "location": "Tel Aviv, Israel [remote]",
     "description": "Javascript (ES6) and Typescript, Sass, React, Next.js, Gatsby, Graphql, Jest for e2e testing. Services like Git/Github, Vercel and Netlify CI/CD, Github Actions. AWS. Other skills: Node.js and Bash programming for process automation. CLI tools development"
@@ -18,7 +18,7 @@
   {
     "company": "Neoproyex",
     "logo": "https://mir-s3-cdn-cf.behance.net/user/138/122388.53ab9683ab10b.png",
-    "period": "2018-2019",
+    "period": "2018",
     "position": "Fullstack Developer",
     "location": "Santiago, Chile",
     "description": "HTML5, CSS3, Sass, Javascript (Vanilla),  PHP, MySQL and Wordpress"
@@ -34,7 +34,7 @@
   {
     "company": "Neoproyex",
     "logo": "https://mir-s3-cdn-cf.behance.net/user/138/122388.53ab9683ab10b.png",
-    "period": "2011-2013",
+    "period": "2011-2012",
     "position": "Fullstack Developer",
     "location": "Santiago, Chile [remote]",
     "description": "HTML4, CSS2, Javascript/jQuery, Ajax, Python and PHP. Frameworks like Django. Databases like MySQL and MSSQL"
