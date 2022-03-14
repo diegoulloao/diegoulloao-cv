@@ -1,6 +1,6 @@
 <script>
   // Components
-  import { Skill, Project, Experience } from "@components"
+  import { Skill, Project, Experience, Button } from "@components"
 
   // Data sources
   import skills from "@data/skills.json"
@@ -60,6 +60,7 @@
             repo={p.repo}
             thumbnail={p.thumbnail}
             description={p.description}
+            labels={p.labels}
             url={p.url}
             classes="h-full"
           />
@@ -84,5 +85,9 @@
         />
       {/each}
     </div>
+  </div>
+
+  <div class="contact-me text-center mt-32">
+    <Button text="Contact me" href="/contact" />
   </div>
 </main>

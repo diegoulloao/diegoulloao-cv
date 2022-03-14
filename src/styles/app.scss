@@ -135,6 +135,11 @@ a:visited {
   background-color: $blue;
 }
 
+// Borders
+.border-purple {
+  border-color: $purple;
+}
+
 // Lists
 ul.dash-list {
   @apply list-none;
@@ -155,3 +160,6 @@ ul.dash-list {
 @include tailwind-extend-hover("cyan", $cyan);
 @include tailwind-extend-hover("purple", $purple);
 @include tailwind-extend-hover("blue", $blue);
+
+// Components
+@import "components/Button.scss";

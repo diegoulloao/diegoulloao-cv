@@ -4,47 +4,54 @@
     "repo": "bananasplit-js",
     "thumbnail": "https://bananasplit.js.org/assets/images/bananasplit-logo.png",
     "description": "an express.js superset template that brings to you a background to quickly develop your app",
-    "url": "https://github.com/bananasplit-js/bananasplit-js"
+    "url": "https://github.com/bananasplit-js/bananasplit-js",
+    "labels": ["typescript", "javascript"]
   },
   {
     "owner": "bananasplit-js",
     "repo": "router-dex",
     "thumbnail": "https://raw.githubusercontent.com/diegoulloao/router-dex/dev/public/capture.png",
     "description": "route and middleware inspector for express >= 4",
-    "url": "https://github.com/bananasplit-js/router-dex"
+    "url": "https://github.com/bananasplit-js/router-dex",
+    "labels": ["typescript"]
   },
   {
     "owner": "diegoulloao",
     "repo": "ioquake3-mac-install",
     "thumbnail": "https://github.com/diegoulloao/ioquake3-mac-install/raw/master/logo.png",
     "description": "install ioquake3 on macos in one command (now m1 native support)",
-    "url": "https://github.com/diegoulloao/ioquake3-mac-install"
+    "url": "https://github.com/diegoulloao/ioquake3-mac-install",
+    "labels": ["bash"]
   },
   {
     "owner": "diegoulloao",
     "repo": "ensambler-vscode-theme",
     "thumbnail": "https://i.imgur.com/J9jjFfp.png",
     "description": "a beautiful vscode theme, now available at the extension marketplace",
-    "url": "https://github.com/diegoulloao/ensambler-vscode-theme"
+    "url": "https://github.com/diegoulloao/ensambler-vscode-theme",
+    "labels": ["json"]
   },
   {
     "owner": "bananasplit-js",
     "repo": "bananasplit-client",
     "thumbnail": "https://bananasplit.js.org/assets/images/bananasplit-client.svg",
     "description": "a bananasplit-js cli for command-line",
-    "url": "https://github.com/bananasplit-js/bananasplit-client"
+    "url": "https://github.com/bananasplit-js/bananasplit-client",
+    "labels": ["javascript"]
   },
   {
     "owner": "diegoulloao",
     "repo": "yup-es",
     "description": "es-es locale for yup",
-    "url": "https://github.com/diegoulloao/yup-es"
+    "url": "https://github.com/diegoulloao/yup-es",
+    "labels": ["javascript"]
   },
   {
     "owner": "thedenisnikulin",
     "repo": "vim-cyberpunk",
     "thumbnail": "https://github.com/thedenisnikulin/vim-cyberpunk/raw/master/screenshots/cyberpunk.png",
     "description": "cyberpunk colorscheme for vim, includes vim-airline and vim-lighline theme (which I contributed for)",
-    "url": "https://github.com/thedenisnikulin/vim-cyberpunk"
+    "url": "https://github.com/thedenisnikulin/vim-cyberpunk",
+    "labels": ["vim-script"]
   }
 ]
