@@ -4,7 +4,9 @@
 
   // On Click
   const onClick = (e) => {
-    if (typeof action !== "function") return true
+    if (typeof action !== "function") {
+      return true
+    }
     
     e.preventDefault()
     return action(e)
