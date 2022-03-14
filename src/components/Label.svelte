@@ -1,4 +1,5 @@
 <script>
+  // Props
   export let text="", classes=""
 </script>
 
