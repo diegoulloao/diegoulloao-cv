@@ -51,15 +51,15 @@
 
   <div class="projects flex mt-10">
     <div class="project-container w-full">
-      <h2 class="text-3xl uppercase bg-title mb-3">Contributions</h2>
+      <h2 class="text-3xl uppercase bg-title mb-4">Contributions</h2>
 
       <div class="projects-list grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-3">
         {#each projects as p}
           <Project
-            owner={p.owner}
             repo={p.repo}
             thumbnail={p.thumbnail}
             description={p.description}
+            contributor={p.contributor}
             labels={p.labels}
             url={p.url}
             classes="h-full"
