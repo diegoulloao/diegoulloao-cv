@@ -10,3 +10,18 @@
 ].join(" ")}>
   {text}
 </a>
+
+<style lang="scss">
+  // Colors
+  @import "src/styles/colors.scss";
+
+  .button {
+    &:hover {
+      border: 1px solid $purple;
+
+      @apply transition;
+      @apply duration-100;
+      @apply ease-in-out;
+    }
+  }
+</style>
