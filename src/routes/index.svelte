@@ -6,6 +6,9 @@
   import skills from "@data/skills.json"
   import projects from "@data/projects.json"
   import experience from "@data/experience.json"
+
+  // Years of experience
+  const yearsExperience = Math.abs(2011 - new Date().getFullYear()) - 2
 </script>
 
 <!-- Head -->
@@ -28,7 +31,7 @@
       <p class="text-gray-600">
         Fullstack Developer, Open Source contributor and Autodidact Programmer since my 16 years old.
         <br /><br />
-        With 8 years of experience accumulated today I dedicate myself to develop TI technologies specializing in frontend applications.
+        With {yearsExperience} years of net experience accumulated today I dedicate myself to develop IT specializing in frontend applications.
       </p>
 
       <br />
