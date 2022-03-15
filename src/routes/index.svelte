@@ -16,7 +16,7 @@
 <!-- Index Page -->
 <main id="intro">
   <div class="row-1 flex mt-24 gap-14">
-    <div class="profile-img" style="width:auto;max-width:250px">
+    <div class="profile-img">
       <img src="/diego.jpg" alt="none" class="rounded-full">
     </div>
 
@@ -91,3 +91,14 @@
     <Button text="Contact me" href="/contact" />
   </div>
 </main>
+
+<style lang="scss">
+  .profile-img {
+    width: 250px;
+
+    @media only screen and (max-width: 1024) {
+      width: auto;
+      max-width: 250px;
+    }
+  }
+</style>
