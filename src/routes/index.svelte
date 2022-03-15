@@ -15,7 +15,7 @@
 
 <!-- Index Page -->
 <main id="home">
-  <div class="intro flex flex-col sm:flex-row mt-16 sm:mt-24 gap-10 sm:gap-14">
+  <div class="intro flex flex-col sm:flex-row mt-12 sm:mt-24 gap-10 sm:gap-14">
     <div class="profile-img">
       <img src="/diego.jpg" alt="none" class="rounded-full">
     </div>
