@@ -14,8 +14,8 @@
 </svelte:head>
 
 <!-- Index Page -->
-<main id="intro">
-  <div class="row-1 flex flex-col sm:flex-row mt-16 sm:mt-24 gap-10 sm:gap-14">
+<main id="home">
+  <div class="intro flex flex-col sm:flex-row mt-16 sm:mt-24 gap-10 sm:gap-14">
     <div class="profile-img">
       <img src="/diego.jpg" alt="none" class="rounded-full">
     </div>
@@ -37,7 +37,7 @@
     </div>
   </div>
 
-  <div class="skills flex justify-end mt-10">
+  <div class="skills flex justify-end mt-16 sm:mt-10">
     <div class="row-2 max-w-2xl text-right text-gray-600">
       <h3 class="text-3xl mb-3 uppercase text-gray-200 bg-title">Skills</h3>
 
@@ -49,7 +49,7 @@
     </div>
   </div>
 
-  <div class="projects flex mt-10">
+  <div class="projects flex mt-16 sm:mt-10">
     <div class="project-container w-full">
       <h2 class="text-3xl uppercase bg-title mb-4">Contributions</h2>
 
@@ -69,7 +69,7 @@
     </div>
   </div>
 
-  <div class="experience mt-10 text-right">
+  <div class="experience mt-16 sm:mt-10 text-right">
     <h2 class="bg-title text-3xl uppercase">Experience</h2>
 
     <div class="experience list">
