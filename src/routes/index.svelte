@@ -29,7 +29,7 @@
       </div>
 
       <p class="text-gray-600">
-        Fullstack Developer, Open Source contributor and Autodidact Programmer since my 16 years old.
+        Fullstack Developer, Open Source contributor and Autodidact Programmer since 16 years old.
         <br /><br />
         With {yearsExperience} years of net experience accumulated today I dedicate myself to develop IT specializing in frontend applications.
       </p>
