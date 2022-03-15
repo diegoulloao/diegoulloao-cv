@@ -1,0 +1,103 @@
+<script>
+  // Components
+  import { Button } from "@components"
+
+  // Props
+  export let setResponse, setClearForm
+
+  // States
+  let name, subject, message
+  let sendingForm = false, submitClicked = false
+
+  // Actions
+  const onSendForm = async () => {
+    // Change submit clicked state to true
+    if (!submitClicked) submitClicked = true
+
+    // Escape if form values are not filled
+    if (!name || !subject || !message) {
+      return false
+    }
+
+    // Change sendingForm state to true
+    sendingForm = true
+
+    // Send form to FormSpree
+    const response = await fetch("https://formspree.io/f/mpzlzjnv", {
+      method: "post",
+      body: JSON.stringify({ name, subject, message }),
+      headers: { "Accept": "application/json" }
+    })
+
+    // Pass response to parent
+    setResponse(response)
+
+    // Change sendingForm status to false
+    sendingForm = false
+  }
+
+  // Pass clearForm function to parent
+  setClearForm(() => {
+    name = subject = message = null
+    submitClicked = false
+    setResponse(null)
+  })
+</script>
+
+<!-- Form -->
+<form id="contact-form" class="w-full max-w-xl mx-auto mt-20">
+  <!-- Name -->
+  <div class="md:flex items-center">
+    <div class="w-full flex flex-col">
+      <label for="name" class="leading-none text-gray-500">Name</label>
+      <input
+        bind:value={name}
+        id="name"
+        name="name"
+        type="text"
+        class:border-red-500={submitClicked && !name}
+        class:border-gray-800={!submitClicked || name}
+        class="leading-none text-gray-50 p-3 focus:outline-none mt-4 bg-black border caret-purple"
+      />
+    </div>
+  </div>
+
+  <!-- Subject -->
+  <div class="md:flex items-center mt-8">
+    <div class="w-full flex flex-col">
+      <label for="subject" class="leading-none text-gray-500">Subject</label>
+      <input
+        bind:value={subject}
+        id="subject"
+        name="subject"
+        type="text"
+        class:border-red-500={submitClicked && !subject}
+        class:border-gray-800={!submitClicked || subject}
+        class="leading-none text-gray-50 p-3 focus:outline-none mt-4 bg-black border caret-purple"
+      />
+    </div>
+  </div>
+
+  <!-- Message -->
+  <div class="w-full flex flex-col mt-8">
+    <label for="message" class="leading-none text-gray-500">Message</label>
+    <textarea
+      bind:value={message}
+      id="message"
+      name="message"
+      type="text"
+      class:border-red-500={submitClicked && !message}
+        class:border-gray-800={!submitClicked || message}
+      class="h-40 text-base leading-none text-gray-50 p-3 focus:outline-none mt-4 bg-black border resize-none caret-purple"
+    />
+  </div>
+
+  <!-- Send button -->
+  <div class="text-center mt-16">
+    {#if !sendingForm}
+      <Button text="Send message" action={onSendForm} />
+    {:else}
+      <Button text="Sending..." type="freeze" action={() => false} />
+    {/if}
+  </div>
+</form>

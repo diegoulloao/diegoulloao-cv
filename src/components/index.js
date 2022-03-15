@@ -6,6 +6,7 @@ import Experience from "@components/Experience.svelte"
 import Footer from "@components/Footer.svelte"
 import Label from "@components/Label.svelte"
 import Button from "@components/Button.svelte"
+import ContactForm from "@components/ContactForm.svelte"
 
 export {
   Nav,
@@ -14,5 +15,6 @@ export {
   Experience,
   Footer,
   Label,
-  Button
+  Button,
+  ContactForm
 }
