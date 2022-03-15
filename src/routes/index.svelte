@@ -15,7 +15,7 @@
 
 <!-- Index Page -->
 <main id="intro">
-  <div class="row-1 flex mt-24 gap-14">
+  <div class="row-1 flex flex-col sm:flex-row mt-16 sm:mt-24 gap-10 sm:gap-14">
     <div class="profile-img">
       <img src="/diego.jpg" alt="none" class="rounded-full">
     </div>
@@ -41,7 +41,7 @@
     <div class="row-2 max-w-2xl text-right text-gray-600">
       <h3 class="text-3xl mb-3 uppercase text-gray-200 bg-title">Skills</h3>
 
-      <div class="flex skills gap-16">
+      <div class="grid sm:flex grid-cols-2 skills gap-x-16 gap-y-8 sm:gap-16">
         {#each skills as s}
           <Skill skill={s} />
         {/each}
@@ -87,7 +87,7 @@
     </div>
   </div>
 
-  <div class="contact-me text-center mt-32">
+  <div class="contact-me text-center mt-20 sm:mt-32">
     <Button text="Contact me" href="/contact" />
   </div>
 </main>
