@@ -4,10 +4,6 @@
 
   // States
   let response, clearForm
-
-  // Set States
-  const setResponse = (r) => response = r
-  const setClearForm = (cf) => clearForm = cf
 </script>
 
 <!-- Head -->
@@ -24,7 +20,7 @@
 
   {#if !response}
     <!-- Form -->
-    <ContactForm {setResponse} {setClearForm} />
+    <ContactForm bind:response bind:clearForm />
 
   {:else if response.ok === false}
     <h3 class="text-3xl text-gray-200 text-center mt-20">

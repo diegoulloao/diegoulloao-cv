@@ -3,7 +3,7 @@
   import { Button } from "@components"
 
   // Props
-  export let setResponse, setClearForm
+  export let response, clearForm
 
   // States
   let name, subject, message
@@ -23,25 +23,21 @@
     sendingForm = true
 
     // Send form to FormSpree
-    const response = await fetch("https://formspree.io/f/mpzlzjnv", {
+    response = await fetch("https://formspree.io/f/mpzlzjnv", {
       method: "post",
       body: JSON.stringify({ name, subject, message }),
       headers: { "Accept": "application/json" }
     })
-
-    // Pass response to parent
-    setResponse(response)
 
     // Change sendingForm status to false
     sendingForm = false
   }
 
   // Pass clearForm function to parent
-  setClearForm(() => {
-    name = subject = message = null
+  clearForm = () => {
+    name = subject = message = response = null
     submitClicked = false
-    setResponse(null)
-  })
+  }
 </script>
 
 <!-- Form -->
