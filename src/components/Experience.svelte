@@ -9,7 +9,9 @@
     "experience-description flex justify-end items-center w-full",
     "sm:w-1/2 md:w-7/12 lg:w-3/5 xl:w-4/6 sm:border-r sm:border-gray-800 xl:-mr-12 sm:pr-8 lg:pr-12"
   ].join(" ")}>
-    <p class="text-sm xl:max-w-3xl text-gray-500 border-b border-gray-800 pb-8 sm:border-0">{description}</p>
+    <p class="text-sm xl:max-w-3xl text-gray-500 border-b border-gray-800 pb-8 sm:pb-0 sm:border-0">
+      {description}
+    </p>
   </div>
 
   <div class={[
