@@ -40,6 +40,8 @@
   twitter={{
     title,
     description,
-    site: "@diegoulloao"
+    site: "@diegoulloao",
+    image: "https://diegoulloa.dev/og-image.png",
+    imageAlt: "og-image"
   }}
 />
