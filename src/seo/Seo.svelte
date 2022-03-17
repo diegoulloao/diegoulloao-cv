@@ -27,7 +27,15 @@
     title,
     description,
     type: "website",
-    url: "https://diegoulloa.dev/"
+    url: "https://diegoulloa.dev/",
+    images: [
+      {
+        url: "https://diegoulloa.dev/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "og-image",
+      },
+    ]
   }},
   twitter={{
     title,
