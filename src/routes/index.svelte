@@ -18,7 +18,7 @@
 
 <!-- Index Page -->
 <main id="home">
-  <div class="intro flex flex-col sm:flex-row mt-12 sm:mt-24 gap-10 sm:gap-14">
+  <section class="intro flex flex-col sm:flex-row mt-12 sm:mt-24 gap-10 sm:gap-14">
     <div class="profile-img">
       <img src="/diego.jpg" alt="none" class="rounded-full">
     </div>
@@ -29,18 +29,18 @@
       </div>
 
       <p class="text-gray-600">
-        Fullstack Developer, Open Source contributor and Autodidact Programmer since 16 years old.
-        <br /><br />
-        With {yearsExperience} years of net experience accumulated today I dedicate myself to develop IT specializing in frontend applications.
+      Fullstack Developer, Open Source contributor and Autodidact Programmer since 16 years old.
+      <br /><br />
+      With {yearsExperience} years of net experience accumulated today I dedicate myself to develop IT specializing in frontend applications.
       </p>
 
       <br />
 
       <p>Currently working from Chile to Overseas.</p>
     </div>
-  </div>
+  </section>
 
-  <div class="skills flex justify-end mt-16 sm:mt-10">
+  <section class="skills flex justify-end mt-16 sm:mt-10">
     <div class="row-2 max-w-2xl text-right text-gray-600">
       <h3 class="text-3xl mb-3 uppercase text-gray-200 bg-title">Skills</h3>
 
@@ -50,9 +50,9 @@
         {/each}
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="projects flex mt-16 sm:mt-10">
+  <section class="projects flex mt-16 sm:mt-10">
     <div class="project-container w-full">
       <h2 class="text-3xl uppercase bg-title mb-4">Contributions</h2>
 
@@ -66,13 +66,13 @@
             labels={p.labels}
             url={p.url}
             classes="h-full"
-          />
+            />
         {/each}
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="experience mt-16 sm:mt-10 text-right">
+  <section class="experience mt-16 sm:mt-10 text-right">
     <h2 class="bg-title text-3xl uppercase">Experience</h2>
 
     <div class="experience list">
@@ -88,7 +88,7 @@
         />
       {/each}
     </div>
-  </div>
+  </section>
 
   <div class="contact-me text-center mt-20 sm:mt-32">
     <Button text="Contact me" href="/contact" />

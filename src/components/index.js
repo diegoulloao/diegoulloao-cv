@@ -1,5 +1,5 @@
 // Components
-import Nav from "@components/Nav.svelte"
+import Header from "@components/Header.svelte"
 import Skill from "@components/Skill.svelte"
 import Project from "@components/Project.svelte"
 import Experience from "@components/Experience.svelte"
@@ -9,7 +9,7 @@ import Button from "@components/Button.svelte"
 import ContactForm from "@components/ContactForm.svelte"
 
 export {
-  Nav,
+  Header,
   Skill,
   Project,
   Experience,

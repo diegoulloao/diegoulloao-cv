@@ -1,6 +1,6 @@
 <script>
   // Components
-  import { Nav, Footer } from "@components"
+  import { Header, Footer } from "@components"
 
   // Global Styles
   import '@styles/app.scss'
@@ -12,7 +12,7 @@
   "px-2 sm:px-3 md:px-4 lg:px-6 xl:px-0"
 ].join(" ")}>
   <!-- Nav Menu -->
-  <Nav />
+  <Header />
 
   <!-- Page Content -->
   <slot />
