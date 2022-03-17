@@ -2034,6 +2034,11 @@ sass@^1.42.1:
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
 
+schema-dts@^0.8.2:
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/schema-dts/-/schema-dts-0.8.3.tgz#6c03ca47200e80e9a871d6de626a7cf04fe009b7"
+  integrity sha512-GSLeVkUgEe8DzS8/FGWou1wlC8tQ1KXA5amCqCIH/psUzF74fWswtT0QFlSoJLT08CYyixnc3S/lkAm+RExoLQ==
+
 semver@^7.2.1:
   version "7.3.5"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.5.tgz#0b621c879348d8998e4b0e4be94b3f12e6018ef7"
@@ -2170,6 +2175,13 @@ svelte-preprocess@^4.9.8:
     magic-string "^0.25.7"
     sorcery "^0.10.0"
     strip-indent "^3.0.0"
+
+svelte-seo@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/svelte-seo/-/svelte-seo-1.4.0.tgz#ab09a651d3ed36b046ef5d1bf7a645d59fbaded6"
+  integrity sha512-44kvY3+t8QBjjQPlKIXXRSgp+XzV0OBO4qLs0T3nx7lzgxVzmDI1G+nAgrSYXMbmZAZmmvZGpZpbUBTJckM0Lw==
+  dependencies:
+    schema-dts "^0.8.2"
 
 svelte@^3.42.6:
   version "3.44.0"

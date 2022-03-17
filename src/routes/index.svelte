@@ -7,14 +7,18 @@
   import projects from "@data/projects.json"
   import experience from "@data/experience.json"
 
+  // Seo
+  import Seo from "@seo"
+
   // Years of experience
   const yearsExperience = Math.abs(2011 - new Date().getFullYear()) - 2
 </script>
 
-<!-- Head -->
-<svelte:head>
-  <title>Diego Ulloa - Fullstack Developer</title>
-</svelte:head>
+<!-- Seo -->
+<Seo
+  title="Diego Ulloa - Fullstack Developer"
+  description="Diego Ulloa, Full Stack Developer, Open source contributor and Autodidact Programmer."
+/>
 
 <!-- Index Page -->
 <main id="home">

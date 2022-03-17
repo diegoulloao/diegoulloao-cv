@@ -2,14 +2,18 @@
   // Components
   import { ContactForm } from "@components"
 
+  // Seo
+  import Seo from "@seo"
+
   // States
   let response, clearForm
 </script>
 
-<!-- Head -->
-<svelte:head>
-  <title>Diego Ulloa - Let's get in touch</title>
-</svelte:head>
+<!-- Seo -->
+<Seo
+  title="Diego Ulloa - Let's get in touch"
+  description="Diego Ulloa, Full Stack Developer, Open source contributor and Autodidact Programmer."
+/>
 
 <!-- Contact Page -->
 <main id="contact" class="gap-y-16">

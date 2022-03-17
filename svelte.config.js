@@ -24,7 +24,8 @@ const config = {
           "@styles": path.resolve("src/styles"),
           "@components": path.resolve("src/components"),
           "@stores": path.resolve("src/stores"),
-          "@data": path.resolve("src/data")
+          "@data": path.resolve("src/data"),
+          "@seo": path.resolve("src/seo")
         }
       }
     }
