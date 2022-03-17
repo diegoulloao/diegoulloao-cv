@@ -22,7 +22,7 @@
     "developer",
     "javascript",
     "typescript"
-  ].join(", ")},
+  ].join(", ")}
   openGraph={{
     title,
     description,
@@ -36,7 +36,7 @@
         alt: "og-image",
       },
     ]
-  }},
+  }}
   twitter={{
     title,
     description,
