@@ -34,7 +34,7 @@
         width: 1200,
         height: 630,
         alt: "og-image",
-      },
+      }
     ]
   }}
   twitter={{
