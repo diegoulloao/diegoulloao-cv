@@ -5,7 +5,7 @@
   // Props
   export let
     title = "Diego Ulloa - Fullstack Developer",
-    description = "Diego Ulloa | Fullstack Developer, Open Source contributor and Autodidact Programmer."
+    description = "Fullstack Developer, Open Source contributor and Autodidact Programmer."
 </script>
 
 <!-- Seo -->
