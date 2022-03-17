@@ -15,10 +15,7 @@
 </script>
 
 <!-- Seo -->
-<Seo
-  title="Diego Ulloa - Fullstack Developer"
-  description="Diego Ulloa, Full Stack Developer, Open source contributor and Autodidact Programmer."
-/>
+<Seo />
 
 <!-- Index Page -->
 <main id="home">

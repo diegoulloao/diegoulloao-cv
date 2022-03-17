@@ -10,10 +10,7 @@
 </script>
 
 <!-- Seo -->
-<Seo
-  title="Diego Ulloa - Let's get in touch"
-  description="Diego Ulloa, Full Stack Developer, Open source contributor and Autodidact Programmer."
-/>
+<Seo title="Diego Ulloa - Let's get in touch" />
 
 <!-- Contact Page -->
 <main id="contact" class="gap-y-16">
