@@ -13,7 +13,10 @@ const config = {
       css: {
         preprocessorOptions: {
           scss: {
-            additionalData: '@import "src/styles/variables.scss";'
+            additionalData: `
+              @import "src/styles/_variables.scss";
+              @import "src/styles/_colors.scss";
+            `
           }
         }
       },
