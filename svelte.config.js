@@ -34,9 +34,11 @@ const config = {
   preprocess: [
     preprocess({
       postcss: true,
-
       scss: {
-        prependData: '@import "src/styles/variables.scss";'
+        prependData: `
+          @import "src/styles/_variables.scss";
+          @import "src/styles/_colors.scss";
+        `
       }
     })
   ]
