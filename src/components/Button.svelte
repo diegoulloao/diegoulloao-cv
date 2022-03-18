@@ -1,6 +1,12 @@
 <script>
   // Props
-  export let text, action, href="#!", target="", type="primary", classes=""
+  export let
+    text,
+    action,
+    href = "#!",
+    type = "primary",
+    target = "",
+    classes = ""
 
   // On Click
   const onClick = (e) => {
