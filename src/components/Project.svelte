@@ -6,11 +6,11 @@
   export let
     description,
     repo,
-    url="#!",
-    labels=[],
-    classes="",
-    contributor=false,
-    thumbnail="https://cdn1.iconfinder.com/data/icons/logotypes/32/github-64.png"
+    url = "#!",
+    labels = [],
+    classes = "",
+    contributor = false,
+    thumbnail = "https://cdn1.iconfinder.com/data/icons/logotypes/32/github-64.png"
 </script>
 
 <!-- Project -->

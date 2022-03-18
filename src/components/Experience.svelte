@@ -1,6 +1,13 @@
 <script>
   // Props
-  export let company, logo, period, position, location, description, classes=""
+  export let
+    company,
+    logo,
+    period,
+    position,
+    location,
+    description,
+    classes = ""
 </script>
 
 <!-- Experience -->

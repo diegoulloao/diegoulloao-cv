@@ -83,7 +83,7 @@
       name="message"
       type="text"
       class:border-red-500={submitClicked && !message}
-        class:border-gray-800={!submitClicked || message}
+      class:border-gray-800={!submitClicked || message}
       class="h-40 text-base leading-none text-gray-50 p-3 focus:outline-none mt-4 bg-black border resize-none caret-purple"
     />
   </div>

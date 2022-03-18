@@ -1,6 +1,6 @@
 <script>
   // Props
-  export let text="", classes=""
+  export let text = "", classes = ""
 </script>
 
 <!-- Label -->
