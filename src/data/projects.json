@@ -47,5 +47,13 @@
     "url": "https://github.com/thedenisnikulin/vim-cyberpunk",
     "labels": ["vim-script"],
     "contributor": true
+  },
+  {
+    "repo": "alias-hq",
+    "thumbnail": "https://raw.githubusercontent.com/davestewart/alias-hq/master/docs/assets/logo.png",
+    "description": "The end-to-end solution for configuring, refactoring, maintaining and using path aliases. I introduced an automatic alias path registration for node.",
+    "url": "https://github.com/davestewart/alias-hq",
+    "labels": ["javascript"],
+    "contributor": true
   }
 ]
