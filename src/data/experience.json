@@ -1,7 +1,7 @@
 [
   {
     "company": "Unboxable",
-    "logo": "https://media-exp1.licdn.com/dms/image/C4D0BAQHRXS_LraLO1w/company-logo_200_200/0/1636470330216?e=1655337600&v=beta&t=JFhWnsXcrEWM_JKPKc_j5-IPOj7WBP29pOCz9hFzXoY",
+    "logo": "/logos/unboxable.jpg",
     "period": "2021",
     "position": "Frontend Developer",
     "location": "Tel Aviv, Israel [remote]",
@@ -9,7 +9,7 @@
   },
   {
     "company": "Ensambler",
-    "logo": "https://media-exp1.licdn.com/dms/image/C4E0BAQEJjnZ8dS_laQ/company-logo_200_200/0/1551842934269?e=1655337600&v=beta&t=EKzC_Tf8juPXh5v650abo2P8VOh9Rqi-OCVtcEimmGY",
+    "logo": "/logos/ensambler.jpeg",
     "period": "2019-2020",
     "position": "Lead & Backend Developer",
     "location": "Santiago, Chile",
@@ -17,7 +17,7 @@
   },
   {
     "company": "Neoproyex",
-    "logo": "https://mir-s3-cdn-cf.behance.net/user/138/122388.53ab9683ab10b.png",
+    "logo": "/logos/neoproyex.png",
     "period": "2018",
     "position": "Fullstack Developer",
     "location": "Santiago, Chile",
@@ -33,7 +33,7 @@
   },
   {
     "company": "Neoproyex",
-    "logo": "https://mir-s3-cdn-cf.behance.net/user/138/122388.53ab9683ab10b.png",
+    "logo": "/logos/neoproyex.png",
     "period": "2011-2012",
     "position": "Fullstack Developer",
     "location": "Santiago, Chile [remote]",
