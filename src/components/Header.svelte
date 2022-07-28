@@ -3,7 +3,7 @@
   <nav class="nav-list mx-auto sm:mx-0 space-x-12 hover:text-blue">
     <a href="/">Home</a>
     <a href="/contact">Contact</a>
-    <a class="text-purple" href="/#download-cv">Resume</a>
+    <a class="text-purple no-hover" href="/cv-diegoulloa.pdf" download>Resume</a>
   </nav>
 
   <div class="social space-x-12 text-gray-500 hover:text-white">
