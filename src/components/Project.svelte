@@ -29,7 +29,7 @@
         <div class="ml-3 flex flex-col justify-center">
           <div class="flex">
             <span class="text-gray-300 font-semibold">{repo}</span>
-            {#if contributor} <span class="ml-4 relative top-1 text-gray-700 text-xs font-semibold">[contributor]</span> {/if}
+            {#if contributor} <span class="ml-4 relative top-1 text-purple text-xs font-semibold">[contributor]</span> {/if}
           </div>
         </div>
       </div>
