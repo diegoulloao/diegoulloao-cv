@@ -73,7 +73,7 @@
     </div>
   </section>
 
-  <section class="experience mt-16 sm:mt-10 text-right">
+  <section class="experience mt-16 sm:mt-5 text-right">
     <h2 class="bg-title text-3xl uppercase">&nbsp;Experience&nbsp;</h2>
 
     <div class="experience list">
@@ -85,7 +85,7 @@
           position={e.position}
           location={e.location}
           description={e.description}
-          classes="mt-8"
+          classes="mt-4"
         />
       {/each}
     </div>

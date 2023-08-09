@@ -52,7 +52,7 @@
         name="name"
         type="text"
         class:border-red-500={submitClicked && !name}
-        class:border-gray-800={!submitClicked || name}
+        class:border-gray-900={!submitClicked || name}
         class="leading-none text-gray-50 p-3 focus:outline-none mt-4 bg-black border caret-purple"
       />
     </div>
@@ -68,7 +68,7 @@
         name="subject"
         type="text"
         class:border-red-500={submitClicked && !subject}
-        class:border-gray-800={!submitClicked || subject}
+        class:border-gray-900={!submitClicked || subject}
         class="leading-none text-gray-50 p-3 focus:outline-none mt-4 bg-black border caret-purple"
       />
     </div>
@@ -83,7 +83,7 @@
       name="message"
       type="text"
       class:border-red-500={submitClicked && !message}
-      class:border-gray-800={!submitClicked || message}
+      class:border-gray-900={!submitClicked || message}
       class="h-40 text-base leading-none text-gray-50 p-3 focus:outline-none mt-4 bg-black border resize-none caret-purple"
     />
   </div>
