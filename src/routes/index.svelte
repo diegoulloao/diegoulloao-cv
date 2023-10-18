@@ -26,7 +26,7 @@
 
     <div class="description max-w-2xl flex flex-col justify-center text-gray-200">
       <div>
-        <h2 class="text-5xl mb-3 bg-title">&nbsp;Diego Ulloa&nbsp;</h2>
+        <h2 class="text-4xl md:text-5xl mb-3 bg-title">&nbsp;Diego Ulloa&nbsp;</h2>
       </div>
 
       <p class="text-gray-600">
