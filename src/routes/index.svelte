@@ -90,7 +90,7 @@
 
 		<!-- Desktop, Tablets: Grid -->
 		<div
-			class="experience-list mt-5 hidden md:grid md:grid-cols-[auto_max-content] gap-y-5 justify-end"
+			class="experience-list mt-5 hidden md:grid md:grid-cols-[auto_max-content] gap-y-5 justify-end items-center"
 		>
 			{#each experience as e}
 				<Experience
