@@ -19,14 +19,15 @@
 
 <!-- Index Page -->
 <main id="home">
-	<section class="intro flex flex-col sm:flex-row mt-12 sm:mt-24 gap-10 sm:gap-14">
+  <!-- Intro Section -->
+	<section class="intro flex flex-col sm:flex-row mt-12 sm:mt-24 gap-10">
 		<div class="profile-img">
 			<img src="/diego.jpg" alt="none" class="rounded-full" />
 		</div>
 
 		<div class="description max-w-2xl flex flex-col justify-center text-gray-200">
 			<div>
-				<h2 class="text-4xl md:text-5xl mb-3 bg-title">&nbsp;Diego Ulloa&nbsp;</h2>
+				<h2 class="text-4xl md:text-5xl mb-4 bg-title">&nbsp;Diego Ulloa&nbsp;</h2>
 			</div>
 
 			<p class="text-gray-600">
@@ -47,9 +48,10 @@
 		</div>
 	</section>
 
+  <!-- Skills Section -->
 	<section class="skills flex justify-end mt-16 sm:mt-10">
 		<div class="row-2 max-w-2xl text-right text-gray-600">
-			<h3 class="text-3xl mb-3 uppercase text-gray-200 bg-title">&nbsp;Skills&nbsp;</h3>
+			<h3 class="text-3xl mb-4 uppercase text-gray-200 bg-title">&nbsp;Skills&nbsp;</h3>
 
 			<div class="grid sm:flex grid-cols-2 skills gap-x-16 gap-y-8 sm:gap-16">
 				{#each skills as s}
@@ -59,9 +61,10 @@
 		</div>
 	</section>
 
+  <!-- Contributions Section -->
 	<section class="projects flex mt-16 sm:mt-10">
 		<div class="project-container w-full">
-			<h2 class="text-3xl uppercase bg-title mb-4">&nbsp;Contributions&nbsp;</h2>
+			<h2 class="text-3xl uppercase bg-title mb-5">&nbsp;Contributions&nbsp;</h2>
 
 			<div
 				class="projects-list grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-3"
@@ -81,8 +84,9 @@
 		</div>
 	</section>
 
-	<section class="experience mt-16 sm:mt-5 text-right">
-		<h2 class="bg-title text-3xl uppercase">&nbsp;Experience&nbsp;</h2>
+  <!-- Experience Section -->
+	<section class="experience mt-12 sm:mt-5 text-right">
+		<h2 class="bg-title text-3xl uppercase mb-0 sm:mb-2">&nbsp;Experience&nbsp;</h2>
 
 		<div class="experience list">
 			{#each experience as e}
@@ -93,7 +97,7 @@
 					position={e.position}
 					location={e.location}
 					description={e.description}
-					classes="mt-4"
+					classes="mt-5"
 				/>
 			{/each}
 		</div>
