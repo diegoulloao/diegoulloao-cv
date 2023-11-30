@@ -6,47 +6,44 @@
     period,
     position,
     location,
-    description,
-    classes = ""
+    description
 </script>
 
 <!-- Experience -->
-<div class="experience-item flex flex-col sm:flex-row justify-end {classes}">
-  <div class={[
-    "experience-description flex justify-end items-center w-full",
-    "sm:w-1/2 md:w-7/12 lg:w-3/5 xl:w-4/6 sm:border-r sm:border-gray-900 xl:-mr-12 sm:pr-8 lg:pr-12"
-  ].join(" ")}>
-    <p class="w-full text-sm xl:max-w-3xl text-gray-500 border-b border-gray-900 pb-8 sm:pb-0 sm:border-0">
-      {description}
-    </p>
-  </div>
-
-  <div class={[
-    "experience-head flex justify-end items-center order-first mb-4 sm:mt-0 sm:order-none",
-    "w-full sm:w-1/2 md:w-5/12 lg:w-2/5 xl:w-1/3 pl-4 lg:pl-24"
-  ].join(" ")}>
-    <div class="experience-main mr-4 sm:mr-2 lg:mr-4">
-      <div class="experience-title text-lg text-gray-200">
-        {company} <span class="text-sm">[{period}]</span>
-      </div>
-
-      <div class="experience-position text-gray-500 uppercase">
-        {position}
-      </div>
-
-      <div class="experience-location text-sm text-gray-700">
-        {location}
-      </div>
-    </div>
-
-    <div class="experience-img w-14 lg:w-18">
-      <img src={logo} alt="">
-    </div>
-  </div>
+<div
+	class={[
+		"experience-description w-full",
+		"md:border-r md:border-gray-900 xl:-mr-8 sm:pr-8 lg:pr-12"
+	].join(" ")}
+>
+	<p
+		class="w-full text-sm xl:max-w-3xl text-gray-500 border-b border-gray-900 pb-8 md:pb-0 md:border-0"
+	>
+		{description}
+	</p>
 </div>
 
-<style lang="scss">
-  .experience-item:last-of-type .experience-description p {
-    border-bottom-width: 0 !important;
-  }
-</style>
+<div
+	class={[
+		"experience-head flex justify-end items-center mb-4 sm:mt-0",
+		"w-full pl-8 order-first md:order-none"
+	].join(" ")}
+>
+	<div class="experience-main mr-4 sm:mr-2 lg:mr-4">
+		<div class="experience-title text-lg text-gray-200">
+			{company} <span class="text-sm">[{period}]</span>
+		</div>
+
+		<div class="experience-position text-gray-500 uppercase">
+			{position}
+		</div>
+
+		<div class="experience-location text-sm text-gray-700">
+			{location}
+		</div>
+	</div>
+
+	<div class="experience-img w-14 lg:w-18">
+		<img src={logo} alt="" />
+	</div>
+</div>

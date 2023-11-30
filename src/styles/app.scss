@@ -43,17 +43,17 @@ $gradient-primary: linear-gradient(90.69deg, $cyan 13.42%, $purple 42.37%, $blue
 */
 
 @mixin tailwind-extend-hover($name, $color) {
-  [class*="hover:text-#{$name}"] a,
-  a[class*="hover:text-#{$name}"],
-  a[class*="hover:text-#{$name}"]:visited {
-    &:hover,
-    &:link:hover,
-    &:visited:hover {
-      &:not(.no-hover) {
-        color: $color !important;
-      }
-    }
-  }
+	[class*="hover:text-#{$name}"] a,
+	a[class*="hover:text-#{$name}"],
+	a[class*="hover:text-#{$name}"]:visited {
+		&:hover,
+		&:link:hover,
+		&:visited:hover {
+			&:not(.no-hover) {
+				color: $color !important;
+			}
+		}
+	}
 }
 
 /*
@@ -66,19 +66,23 @@ $gradient-primary: linear-gradient(90.69deg, $cyan 13.42%, $purple 42.37%, $blue
 */
 
 body {
-  font-family: 'Roboto Mono', monospace;
-  background-color: $black;
-  color: $white;
+	font-family: "Roboto Mono", monospace;
+	background-color: $black;
+	color: $white;
 }
 
 ::selection {
-  background-color: $purple;
-  color: $black;
+	background-color: $purple;
+	color: $black;
 }
 
 a:link,
 a:visited {
-  @apply transition;
+	@apply transition;
+}
+
+.experience-item:last-of-type .experience-description p {
+	border-bottom-width: 0 !important;
 }
 
 /*
@@ -92,77 +96,77 @@ a:visited {
 
 // Gradients
 .bg-gradient-primary {
-  background-image: $gradient-primary;
+	background-image: $gradient-primary;
 }
 
 // Titles
 .bg-title {
-  background-color: $purple;
-  color: $black;
-  padding: 8px 4px;
-  display: inline-block !important;
+	background-color: $purple;
+	color: $black;
+	padding: 8px 4px;
+	display: inline-block !important;
 }
 
 // Text Color
 .text-purple {
-  color: $purple;
+	color: $purple;
 }
 
 .text-cyan {
-  color: $cyan;
+	color: $cyan;
 }
 
 .blue {
-  color: $blue;
+	color: $blue;
 }
 
 // Text Styles
 .underlined {
-  padding-bottom: 1px;
-  border-bottom: 1px solid $purple;
+	padding-bottom: 1px;
+	border-bottom: 1px solid $purple;
 
-  &:hover {
-    border-bottom-color: $blue;
-  }
+	&:hover {
+		border-bottom-color: $blue;
+	}
 }
 
 // Backgrounds
 .bg-purple {
-  background-color: $purple;
+	background-color: $purple;
 }
 
 .bg-cyan {
-  background-color: $cyan;
+	background-color: $cyan;
 }
 
 .bg-blue {
-  background-color: $blue;
+	background-color: $blue;
 }
 
 // Borders
 .border-purple {
-  border-color: $purple;
+	border-color: $purple;
 }
 
 // Lists
 ul.dash-list {
-  @apply list-none;
-  @apply ml-1;
+	@apply list-none;
+	@apply ml-1;
 
-  & > li {
-    text-indent: -5px;
+	& > li {
+		text-indent: -5px;
 
-    &::before {
-      content: "-";
-      @apply mr-4;
-      @apply text-gray-500;
-    }
-  }
+		&::before {
+			content: "-";
+			@apply mr-4;
+			@apply text-gray-500;
+		}
+	}
 }
 
 // Others
 .caret-purple {
-  caret-color: $purple;
+	caret-color: $purple;
 }
 
 // Classes from mixins
