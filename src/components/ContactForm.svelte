@@ -41,7 +41,7 @@
 </script>
 
 <!-- Form -->
-<form id="contact-form" class="w-full max-w-xl mx-auto mt-16 sm:mt-20">
+<form id="contact-form" class="w-full max-w-xl mx-auto mt-14 sm:mt-20">
   <!-- Name -->
   <div class="md:flex items-center">
     <div class="w-full flex flex-col">
