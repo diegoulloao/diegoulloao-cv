@@ -27,7 +27,7 @@
 
 		<div class="description max-w-2xl flex flex-col justify-center text-gray-200">
 			<div>
-				<h2 class="text-4xl md:text-5xl mb-4 bg-title">
+				<h2 class="text-3xl md:text-5xl mb-4 bg-title">
 					&nbsp;Diego Ulloa<span class="blink-animation">_</span>&nbsp;
 				</h2>
 			</div>
@@ -55,7 +55,7 @@
 	<!-- Skills Section -->
 	<section class="skills flex justify-end mt-16 sm:mt-10">
 		<div class="row-2 max-w-2xl text-right text-gray-600">
-			<h3 class="text-3xl mb-4 uppercase text-gray-200 bg-title">
+			<h3 class="text-2xl sm:text-3xl mb-4 uppercase text-gray-200 bg-title">
 				&nbsp;Skills<span class="blink-animation">_</span>&nbsp;
 			</h3>
 
@@ -70,7 +70,7 @@
 	<!-- Contributions Section -->
 	<section class="projects flex mt-16 sm:mt-10">
 		<div class="project-container w-full">
-			<h2 class="text-3xl uppercase bg-title mb-4">
+			<h2 class="text-2xl sm:text-3xl uppercase bg-title mb-4">
 				&nbsp;Contributions<span class="blink-animation">_</span>&nbsp;
 			</h2>
 
@@ -94,7 +94,7 @@
 
 	<!-- Experience Section -->
 	<section class="experience mt-12 sm:mt-5 text-right">
-		<h2 class="bg-title text-3xl uppercase mb-0 sm:mb-2">
+		<h2 class="bg-title text-2xl sm:text-3xl uppercase mb-0 sm:mb-2">
 			&nbsp;Experience<span class="blink-animation">_</span>&nbsp;
 		</h2>
 
