@@ -16,7 +16,11 @@
 <main id="contact" class="gap-y-16">
   <!-- Title -->
   <h2 class="text-3xl text-gray-200 mt-12 text-center">
-    Let's get in touch <span class="blink-animation text-purple">_</span>
+    <!-- Desktop title -->
+    <div class="hidden sm:block"><span>Let's get in touch</span> <span class="blink-animation text-purple">_</span></div>
+
+    <!-- Mobile title -->
+    <div class="block sm:hidden"><span>Get in touch</span> <span class="blink-animation text-purple">_</span></div>
   </h2>
 
   {#if !response}

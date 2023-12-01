@@ -22,7 +22,7 @@
 	<!-- Intro Section -->
 	<section class="intro flex flex-col sm:flex-row mt-12 sm:mt-24 gap-10 sm:gap-14">
 		<div class="profile-img">
-			<img src="/diego.jpg" alt="none" class="rounded-full max-w-[240px] sm:max-w-full" />
+			<img src="/diego.jpg" alt="none" class="rounded-full max-w-[250px] sm:max-w-full" />
 		</div>
 
 		<div class="description max-w-2xl flex flex-col justify-center text-gray-200">
