@@ -3,7 +3,7 @@
 </script>
 
 <!-- Nav -->
-<header class="sticky bg-black z-50 top-0 py-3 flex justify-between shadow overflow-visible">
+<header class="sticky bg-black font-normal z-50 top-0 py-3 flex justify-between shadow overflow-visible">
 	<nav class="flex nav-list mx-auto sm:mx-0 space-x-12 sm:space-x-14 hover:text-blue">
 		<a href="/">Home</a>
 		<a href="/contact">Contact</a>
@@ -17,7 +17,7 @@
 		</span>
 	</nav>
 
-	<div class="social space-x-0 text-gray-500 hidden sm:inline">
+	<div class="social space-x-0 text-gray-600 hidden sm:inline">
 		<a class="hover:text-white" href="https://github.com/diegoulloao" target="__blank"> Github </a>
 
 		<span> | </span>

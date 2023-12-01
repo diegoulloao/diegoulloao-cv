@@ -5,7 +5,7 @@
 
 <!-- Skill -->
 <div>
-  <h4 class="text-xl mb-2">{skill.title}</h4>
+  <h4 class="text-xl mb-2 font-normal text-gray-600">{skill.title}</h4>
 
   <ul class="text-gray-200">
     {#each skill.items as i}

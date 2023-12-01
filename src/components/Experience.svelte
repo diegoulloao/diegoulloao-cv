@@ -11,7 +11,7 @@
 	].join(" ")}
 >
 	<p
-		class="w-full text-sm xl:max-w-3xl text-gray-500 border-b border-gray-900 pb-8 md:pb-0 md:border-0"
+		class="w-full text-sm xl:max-w-3xl text-gray-600 border-b border-gray-900 pb-8 md:pb-0 md:border-0"
 	>
 		{description}
 	</p>
@@ -24,11 +24,11 @@
 	].join(" ")}
 >
 	<div class="experience-main mr-4 sm:mr-2 lg:mr-4">
-		<div class="experience-title text-lg text-gray-200">
+		<div class="experience-title text-lg text-gray-200 font-normal">
 			{company} <span class="text-sm">[{period}]</span>
 		</div>
 
-		<div class="experience-position text-gray-500 uppercase">
+		<div class="experience-position text-gray-500 uppercase text-sm">
 			{position}
 		</div>
 

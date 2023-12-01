@@ -17,7 +17,7 @@
 <div class="project-card">
   <!-- Card -->
   <a
-    class="grid content-between relative w-auto border border-gray-900 p-5 hover:bg-gray-900 hover:border-purple-500 duration-100 {classes}"
+    class="grid content-between relative w-auto border border-gray-900 p-6 hover:bg-gray-900 hover:border-purple-500 duration-100 {classes}"
     href={url}
     target="_blank"
   >
@@ -28,14 +28,14 @@
 
         <div class="ml-3 flex flex-col justify-center">
           <div class="flex">
-            <span class="text-gray-300 font-semibold">{repo}</span>
-            {#if contributor} <span class="ml-4 relative top-1 text-purple text-xs font-semibold">[contributor]</span> {/if}
+            <span class="text-gray-200 font-semibold">{repo}</span>
+            {#if contributor} <span class="ml-4 relative top-1 text-purple text-xs font-normal">[contributor]</span> {/if}
           </div>
         </div>
       </div>
 
       <!-- Content -->
-      <p class="text-sm text-gray-500 mt-3 w-auto max-w-sm">
+      <p class="text-sm text-gray-600 mt-3 w-auto max-w-sm">
         {description}
       </p>
     </div>

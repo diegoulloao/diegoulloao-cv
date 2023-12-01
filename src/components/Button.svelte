@@ -26,7 +26,7 @@
   on:click={onClick}
   class={[
     "button px-4 py-3 transition duration-100 ease-in-out",
-    "hover:bg-transparent hover:text-gray-200",
+    "hover:bg-transparent hover:text-gray-200 font-normal",
     (type === "freeze") ? "border border-purple text-gray-200" : "bg-purple text-black",
     classes
   ].join(" ")}
