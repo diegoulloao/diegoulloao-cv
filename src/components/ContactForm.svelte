@@ -53,7 +53,7 @@
         type="text"
         class:border-red-500={submitClicked && !name}
         class:border-gray-900={!submitClicked || name}
-        class="leading-none text-gray-50 p-3 focus:outline-none mt-2 sm:mt-4 bg-black border caret-purple"
+        class="leading-none text-gray-50 p-2 sm:p-3 focus:outline-none mt-2 sm:mt-4 bg-black border caret-purple"
         data-1p-ignore
       />
     </div>
@@ -70,7 +70,7 @@
         type="text"
         class:border-red-500={submitClicked && !subject}
         class:border-gray-900={!submitClicked || subject}
-        class="leading-none text-gray-50 p-3 focus:outline-none mt-2 sm:mt-4 bg-black border caret-purple"
+        class="leading-none text-gray-50 p-2 sm:p-3 focus:outline-none mt-2 sm:mt-4 bg-black border caret-purple"
       />
     </div>
   </div>
@@ -85,7 +85,7 @@
       type="text"
       class:border-red-500={submitClicked && !message}
       class:border-gray-900={!submitClicked || message}
-      class="h-40 text-base leading-none text-gray-50 p-3 focus:outline-none mt-2 sm:mt-4 bg-black border resize-none caret-purple"
+      class="h-40 text-base leading-none text-gray-50 p-2 sm:p-3 focus:outline-none mt-2 sm:mt-4 bg-black border resize-none caret-purple"
     />
   </div>
 

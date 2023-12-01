@@ -132,7 +132,7 @@
 	</section>
 
 	<!-- Contact Page Link -->
-	<div class="contact-me text-center mt-20 sm:mt-32">
+	<div class="contact-me text-center mt-16 sm:mt-32">
 		<Button text="Contact me" href="/contact" />
 	</div>
 </main>
