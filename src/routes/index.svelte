@@ -115,7 +115,7 @@
 		</div>
 
 		<!-- Mobile: Flex -->
-		<div class="experience-list md:hidden mt-5 gap-y-5 justify-end">
+		<div class="experience-list md:hidden mt-5 justify-end">
 			{#each experience as e}
 				<div class="experience-item flex flex-col mt-5">
 					<Experience
