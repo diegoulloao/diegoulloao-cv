@@ -17,7 +17,7 @@
 <div class="project-card">
   <!-- Card -->
   <a
-    class="grid content-between relative w-auto border border-gray-900 p-6 hover:bg-gray-900 hover:border-purple-500 duration-100 {classes}"
+    class="grid content-between relative w-auto border border-gray-900 p-4 sm:p-6 hover:bg-gray-900 hover:border-purple-500 duration-100 {classes}"
     href={url}
     target="_blank"
   >
