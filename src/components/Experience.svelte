@@ -7,11 +7,11 @@
 <div
 	class={[
 		"experience-description w-full",
-		"md:border-r md:border-gray-900 xl:-mr-8 sm:pr-8 lg:pr-12"
+		"md:border-r-2 md:border-gray-900 xl:-mr-8 sm:pr-8 lg:pr-12"
 	].join(" ")}
 >
 	<p
-		class="w-full text-sm xl:max-w-3xl text-gray-600 border-b border-gray-900 pb-8 md:pb-0 md:border-0"
+		class="w-full text-sm xl:max-w-3xl text-gray-600 border-b-2 border-gray-900 pb-8 md:pb-0 md:border-0"
 	>
 		{description}
 	</p>
