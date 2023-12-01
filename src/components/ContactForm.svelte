@@ -41,7 +41,7 @@
 </script>
 
 <!-- Form -->
-<form id="contact-form" class="w-full max-w-xl mx-auto mt-20">
+<form id="contact-form" class="w-full max-w-xl mx-auto mt-16 sm:mt-20">
   <!-- Name -->
   <div class="md:flex items-center">
     <div class="w-full flex flex-col">
@@ -60,7 +60,7 @@
   </div>
 
   <!-- Subject -->
-  <div class="md:flex items-center mt-8">
+  <div class="md:flex items-center mt-6 sm:mt-8">
     <div class="w-full flex flex-col">
       <label for="subject" class="leading-none text-gray-500">Subject</label>
       <input
@@ -76,7 +76,7 @@
   </div>
 
   <!-- Message -->
-  <div class="w-full flex flex-col mt-8">
+  <div class="w-full flex flex-col mt-6 sm:mt-8">
     <label for="message" class="leading-none text-gray-500">Message</label>
     <textarea
       bind:value={message}
@@ -90,7 +90,7 @@
   </div>
 
   <!-- Send button -->
-  <div class="text-center mt-16">
+  <div class="text-center mt-14 sm:mt-16">
     {#if !sendingForm}
       <Button text="Send message" action={onSendForm} />
     {:else}

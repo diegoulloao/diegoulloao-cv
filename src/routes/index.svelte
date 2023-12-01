@@ -55,7 +55,7 @@
 	<!-- Skills Section -->
 	<section class="skills flex justify-end mt-16 sm:mt-10">
 		<div class="row-2 max-w-2xl text-right text-gray-600">
-			<h3 class="text-3xl mb-3 uppercase text-gray-200 bg-title">
+			<h3 class="text-3xl mb-4 uppercase text-gray-200 bg-title">
 				&nbsp;Skills<span class="blink-animation">_</span>&nbsp;
 			</h3>
 
