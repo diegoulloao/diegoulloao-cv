@@ -27,31 +27,37 @@
 
 		<div class="description max-w-2xl flex flex-col justify-center text-gray-200">
 			<div>
-				<h2 class="text-4xl md:text-5xl mb-4 bg-title">&nbsp;Diego Ulloa<span class="blink-animation">_</span>&nbsp;</h2>
+				<h2 class="text-4xl md:text-5xl mb-4 bg-title">
+					&nbsp;Diego Ulloa<span class="blink-animation">_</span>&nbsp;
+				</h2>
 			</div>
 
-			<p class="text-gray-600">
-				Experienced Fullstack Developer with a passion for Open Source contributions. Self-taught
-				coder since age 16.
-			</p>
+			<div class="text-gray-600 text-sm sm:text-[16px] leading-6">
+				<p>
+					Experienced Fullstack Developer with a passion for Open Source contributions. Self-taught
+					coder since age 16.
+				</p>
 
-			<br />
+				<br />
 
-			<p class="text-gray-600">
-				Bringing {yearsExperience} years of experience, I'm dedicated to helping companies build their
-				products, with a primary focus on Frontend development.
-			</p>
+				<p>
+					Bringing {yearsExperience} years of experience, I'm dedicated to helping companies build their
+					products, with a primary focus on Frontend development.
+				</p>
 
-			<br />
+				<br />
 
-			<p>Currently working remotely for overseas companies.</p>
+				<p class="text-gray-200">Currently working remotely for overseas companies.</p>
+			</div>
 		</div>
 	</section>
 
 	<!-- Skills Section -->
 	<section class="skills flex justify-end mt-16 sm:mt-10">
 		<div class="row-2 max-w-2xl text-right text-gray-600">
-			<h3 class="text-3xl mb-3 uppercase text-gray-200 bg-title">&nbsp;Skills<span class="blink-animation">_</span>&nbsp;</h3>
+			<h3 class="text-3xl mb-3 uppercase text-gray-200 bg-title">
+				&nbsp;Skills<span class="blink-animation">_</span>&nbsp;
+			</h3>
 
 			<div class="grid sm:flex grid-cols-2 skills gap-x-16 gap-y-8 sm:gap-16">
 				{#each skills as s}
@@ -64,7 +70,9 @@
 	<!-- Contributions Section -->
 	<section class="projects flex mt-16 sm:mt-10">
 		<div class="project-container w-full">
-			<h2 class="text-3xl uppercase bg-title mb-4">&nbsp;Contributions<span class="blink-animation">_</span>&nbsp;</h2>
+			<h2 class="text-3xl uppercase bg-title mb-4">
+				&nbsp;Contributions<span class="blink-animation">_</span>&nbsp;
+			</h2>
 
 			<div
 				class="projects-list grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-3"
@@ -86,7 +94,9 @@
 
 	<!-- Experience Section -->
 	<section class="experience mt-12 sm:mt-5 text-right">
-		<h2 class="bg-title text-3xl uppercase mb-0 sm:mb-2">&nbsp;Experience<span class="blink-animation">_</span>&nbsp;</h2>
+		<h2 class="bg-title text-3xl uppercase mb-0 sm:mb-2">
+			&nbsp;Experience<span class="blink-animation">_</span>&nbsp;
+		</h2>
 
 		<!-- Desktop, Tablets: Grid -->
 		<div
