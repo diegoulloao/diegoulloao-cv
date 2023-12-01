@@ -58,6 +58,25 @@ $gradient-primary: linear-gradient(90.69deg, $cyan 13.42%, $purple 42.37%, $blue
 
 /*
 |-----------------------------------------------------------------------------
+| Keyframes: animations
+|-----------------------------------------------------------------------------
+|
+| Any animation
+|
+*/
+
+@keyframes blink-animation {
+	0%,
+	70% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+/*
+|-----------------------------------------------------------------------------
 | General
 |-----------------------------------------------------------------------------
 |
@@ -167,6 +186,14 @@ ul.dash-list {
 // Others
 .caret-purple {
 	caret-color: $purple;
+}
+
+.blink-animation {
+	animation: blink-animation 2s infinite ease;
+}
+
+.project-card:hover > a {
+	border-color: $purple;
 }
 
 // Classes from mixins

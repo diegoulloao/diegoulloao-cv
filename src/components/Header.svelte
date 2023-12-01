@@ -1,20 +1,29 @@
+<script>
+  import { page } from "$app/stores"
+</script>
+
 <!-- Nav -->
-<header class="mb-8 flex justify-between">
-  <nav class="nav-list mx-auto sm:mx-0 space-x-12 hover:text-blue">
-    <a href="/">Home</a>
-    <a href="/contact">Contact</a>
-    <a class="text-purple no-hover border-b-2 border-purple pb-1" href="/diego-ulloa-resume-2024.pdf" download>Get Resume</a>
-  </nav>
+<header class="sticky bg-black z-50 top-0 py-3 flex justify-between shadow overflow-visible">
+	<nav class="flex nav-list mx-auto sm:mx-0 space-x-12 sm:space-x-14 hover:text-blue">
+		<a href="/">Home</a>
+		<a href="/contact">Contact</a>
+		<span class="flex">
+			<a
+				class="text-purple no-hover border-b-2 border-purple pb-1"
+				href="/diego-ulloa-resume-2024.pdf"
+				download><span class="hidden sm:inline">Get</span> Resume</a
+			>
+			<img src="/icons/download.svg" class="relative -top-0.5 ml-2" width="16" alt="download-icon" />
+		</span>
+	</nav>
 
-  <div class="social space-x-0 text-gray-500 hidden sm:inline">
-    <a class="hover:text-white" href="https://github.com/diegoulloao" target="__blank">
-      Github
-    </a>
+	<div class="social space-x-0 text-gray-500 hidden sm:inline">
+		<a class="hover:text-white" href="https://github.com/diegoulloao" target="__blank"> Github </a>
 
-    <span> | </span>
+		<span> | </span>
 
-    <a class="hover:text-white" href="https://www.linkedin.com/in/diegoulloao/" target="__blank">
-      Linkedin
-    </a>
-  </div>
+		<a class="hover:text-white" href="https://www.linkedin.com/in/diegoulloao/" target="__blank">
+			Linkedin
+		</a>
+	</div>
 </header>

@@ -16,7 +16,7 @@
 <main id="contact" class="gap-y-16">
   <!-- Title -->
   <h2 class="text-3xl text-gray-200 mt-12 text-center">
-    Let's get in touch <span class="text-purple">_</span>
+    Let's get in touch <span class="blink-animation text-purple">_</span>
   </h2>
 
   {#if !response}

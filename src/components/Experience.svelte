@@ -1,12 +1,6 @@
 <script>
-  // Props
-  export let
-    company,
-    logo,
-    period,
-    position,
-    location,
-    description
+	// Props
+	export let company, logo, period, position, location, description;
 </script>
 
 <!-- Experience -->
