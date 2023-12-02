@@ -1,5 +1,6 @@
 <script>
-  import { page } from "$app/stores"
+  // Data
+  import { rrss } from "@data/info.json"
 </script>
 
 <!-- Nav -->
@@ -18,11 +19,11 @@
 	</nav>
 
 	<div class="social space-x-0 text-gray-600 hidden sm:inline">
-		<a class="hover:text-white" href="https://github.com/diegoulloao" target="__blank"> Github </a>
+		<a class="hover:text-white" href={rrss.github} target="__blank"> Github </a>
 
 		<span> | </span>
 
-		<a class="hover:text-white" href="https://www.linkedin.com/in/diegoulloao/" target="__blank">
+		<a class="hover:text-white" href={rrss.linkedin} target="__blank">
 			Linkedin
 		</a>
 	</div>

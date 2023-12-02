@@ -89,6 +89,7 @@ body {
 	background-color: $black;
 	color: $white;
 	font-weight: 300;
+	cursor: crosshair;
 }
 
 h1,
@@ -199,7 +200,7 @@ ul.dash-list {
 }
 
 .blink-animation {
-	animation: blink-animation 2s infinite ease;
+	animation: blink-animation 1.5s infinite ease;
 }
 
 .project-card:hover > a {

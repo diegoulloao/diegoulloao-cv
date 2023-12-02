@@ -7,7 +7,7 @@
 <div
 	class={[
 		"experience-description w-full",
-		"md:border-r-2 md:border-gray-900 xl:-mr-8 sm:pr-8 lg:pr-12"
+		"md:border-r-2 md:border-gray-900 xl:-mr-8 sm:pr-8"
 	].join(" ")}
 >
 	<p
@@ -20,7 +20,7 @@
 <div
 	class={[
 		"experience-head flex justify-end items-center mb-4 sm:mt-0",
-		"w-full pl-8 lg:pl-12 order-first md:order-none"
+		"w-full pl-8 order-first md:order-none"
 	].join(" ")}
 >
 	<div class="experience-main mr-4 sm:mr-2 lg:mr-4">
