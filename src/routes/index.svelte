@@ -133,7 +133,7 @@
 
 	<!-- Contact Page Link -->
 	<div class="contact-me text-center mt-16 sm:mt-32">
-		<Button text="Contact me" href="/contact" />
+		<Button text="Hire me" href="/contact" />
 	</div>
 </main>
 

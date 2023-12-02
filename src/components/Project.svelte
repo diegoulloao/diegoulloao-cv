@@ -45,14 +45,14 @@
 			</div>
 
 			<!-- Content -->
-			<p class="text-sm text-gray-600 mt-3 w-auto max-w-sm">
+			<p class="text-sm text-gray-600 group-hover:text-gray-500 mt-3 w-auto max-w-sm">
 				{description}
 			</p>
 		</div>
 
 		<!-- Labels -->
 		{#if labels.length}
-			<div class="project-bottom relative bottom-0 mt-3">
+			<div class="project-bottom relative bottom-0 mt-4">
 				{#each labels as l}
 					<Label text={l} classes="mr-3" />
 				{/each}
