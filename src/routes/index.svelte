@@ -27,17 +27,16 @@
 			<!-- chilean flag -->
 			<div
 				class={[
-					"absolute top-4 left-2 sm:top-2 sm:left-1 rounded-full w-7 h-7 sm:w-10 sm:h-10",
-					"flex items-center bg-gray-900 text-[19px] sm:text-[26px]",
-					"cursor-pointer border border-gray-800 hover:w-[60px] sm:hover:w-20 hover:justify-start",
-					"sm:!pl-1.5 transition-all group"
+					"absolute top-2 left-1 rounded-full w-10 h-10",
+					"flex items-center bg-gray-900 text-[26px]",
+					"cursor-pointer border border-gray-800 hover:w-20",
+					"pl-1.5 transition-all group"
 				].join(" ")}
-				style="padding-left: 3px;"
 			>
 				🇨🇱
 				<span
 					class={[
-						"ml-1 opacity-0 group-hover:opacity-100 text-[9px] sm:text-xs text-white",
+						"ml-1 opacity-0 group-hover:opacity-100 text-xs text-white",
 						"transition-opacity ease-out"
 					].join(" ")}
 				>
