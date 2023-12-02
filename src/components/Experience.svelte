@@ -1,6 +1,6 @@
 <script>
 	// Props
-	export let company, logo, period, position, location, description;
+	export let company, logo, period, position, location, type, description;
 </script>
 
 <!-- Experience -->
@@ -33,6 +33,10 @@
 		</div>
 
 		<div class="experience-location text-sm text-gray-700">
+      {#if type}
+        <img src={`/icons/${type}.svg`} class="inline relative -top-0.5 left-1 w-3.5" alt="icon" />
+      {/if}
+
 			{location}
 		</div>
 	</div>

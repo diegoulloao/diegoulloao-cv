@@ -5,6 +5,7 @@
 		"period": "2022",
 		"position": "Senior Frontend Developer",
 		"location": "San Francisco, EEUU [remote]",
+		"type": "remote",
 		"description": "I was responsible for architecting and coding the core of the product, mentoring developers, reviewing code, and sharing knowledge about best practices. Our product was utilized by renowned companies like Disney Hotstar and Postman."
 	},
 	{
@@ -13,6 +14,7 @@
 		"period": "2021",
 		"position": "Frontend Developer",
 		"location": "Tel Aviv, Israel [remote]",
+		"type": "remote",
 		"description": "I was responsible for thinking up and coding customized frontend and backend solutions tailored to meet specific requirements of the company's product. I provided solutions that could not be found elsewhere externally."
 	},
 	{
@@ -21,6 +23,7 @@
 		"period": "2019-2020",
 		"position": "Founder / Team Lead",
 		"location": "Santiago, Chile",
+		"type": "presencial",
 		"description": "I founded a small team of developers, overseeing decision-making, and working as a backend developer. My primary focus was on managing the entire architecture of the services we offered to our customers and leading my fellow founders."
 	},
 	{
@@ -29,6 +32,7 @@
 		"period": "2018",
 		"position": "Fullstack Developer",
 		"location": "Santiago, Chile",
+		"type": "presencial",
 		"description": "The second time around, I collaborated closely with graphic designers to develop websites and applications from scratch for our clients, catering to various types of local businesses in Chile."
 	},
 	{
@@ -37,6 +41,7 @@
 		"period": "2013-2015",
 		"position": "Fullstack Developer",
 		"location": "Angol, Chile",
+		"type": "home",
 		"description": "For 3 years, I worked as a freelance developer, crafting websites for clients and designing user interfaces. I ensured to use the latest development tools and technologies for my projects."
 	},
 	{
@@ -45,6 +50,7 @@
 		"period": "2011-2012",
 		"position": "Fullstack Developer",
 		"location": "Santiago, Chile [remote]",
+		"type": "remote",
 		"description": "I developed websites and various types of apps from scratch, using the latest web technologies at the time. I worked on projects for various businesses like laundries, hotels, real estate portals, and metallurgical companies. Additionally, I created a sales website for a well-recognized company in Chile, Cardinale."
 	}
 ]

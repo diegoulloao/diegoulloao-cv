@@ -129,6 +129,7 @@
 					period={e.period}
 					position={e.position}
 					location={e.location}
+          type={e.type}
 					description={e.description}
 				/>
 			{/each}
@@ -144,6 +145,7 @@
 						period={e.period}
 						position={e.position}
 						location={e.location}
+            type={e.type}
 						description={e.description}
 					/>
 				</div>
