@@ -24,14 +24,25 @@
 		<div class="profile-img relative">
 			<img src="/diego.jpg" alt="none" class="rounded-full max-w-[230px] sm:max-w-[250px]" />
 
-      <!-- chilean flag -->
+			<!-- chilean flag -->
 			<div
 				class={[
-					"absolute top-6 left-3 sm:top-5 sm:left-3 rounded-full w-7 h-7 sm:w-9 sm:h-9",
-					"flex justify-center items-center bg-gray-900 text-[20px] sm:text-[24px]"
+					"absolute top-4 left-2 sm:top-2 sm:left-1 rounded-full w-7 h-7 sm:w-10 sm:h-10",
+					"flex items-center bg-gray-900 text-[19px] sm:text-[26px]",
+					"cursor-pointer border border-gray-800 hover:w-[60px] sm:hover:w-20 hover:justify-start",
+					"sm:!pl-1.5 transition-all group"
 				].join(" ")}
+				style="padding-left: 3px;"
 			>
 				🇨🇱
+				<span
+					class={[
+						"ml-1 opacity-0 group-hover:opacity-100 text-[9px] sm:text-xs text-white",
+						"transition-opacity ease-out"
+					].join(" ")}
+				>
+					Chile
+				</span>
 			</div>
 		</div>
 
