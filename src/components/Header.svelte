@@ -4,7 +4,7 @@
 </script>
 
 <!-- Nav -->
-<header class="sticky bg-black font-normal z-50 top-0 py-3 flex justify-between shadow overflow-visible">
+<header class="sticky bg-black/75 backdrop-blur-2xl font-normal z-50 top-0 py-3 sm:px-8 flex justify-between shadow-md overflow-visible">
 	<nav class="flex nav-list mx-auto sm:mx-0 space-x-12 sm:space-x-14 hover:text-blue">
 		<a href="/">Home</a>
 		<a href="/contact">Contact</a>
