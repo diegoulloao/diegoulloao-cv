@@ -21,8 +21,18 @@
 <main id="home">
 	<!-- Intro Section -->
 	<section class="intro flex flex-col sm:flex-row mt-12 sm:mt-24 gap-10 sm:gap-14">
-		<div class="profile-img">
+		<div class="profile-img relative">
 			<img src="/diego.jpg" alt="none" class="rounded-full max-w-[230px] sm:max-w-[250px]" />
+
+      <!-- chilean flag -->
+			<div
+				class={[
+					"absolute top-6 left-3 sm:top-5 sm:left-3 rounded-full w-7 h-7 sm:w-9 sm:h-9",
+					"flex justify-center items-center bg-gray-900 text-[20px] sm:text-[24px]"
+				].join(" ")}
+			>
+				🇨🇱
+			</div>
 		</div>
 
 		<div class="description max-w-2xl flex flex-col justify-center text-gray-200">
