@@ -52,7 +52,7 @@
 
 		<!-- Labels -->
 		{#if labels.length}
-			<div class="project-bottom relative bottom-0 mt-4">
+			<div class="project-bottom relative bottom-0 mt-3 sm:mt-4">
 				{#each labels as l}
 					<Label text={l} classes="mr-3" />
 				{/each}
