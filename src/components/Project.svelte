@@ -36,9 +36,14 @@
 
 				<div class="ml-3 flex flex-col justify-center">
 					<div class="flex">
-						<span class="text-gray-200 font-semibold">{repo}</span>
+						<span class="text-gray-200 font-semibold">
+              {repo} {#if contributor}<img src="/icons/github-pr.svg" class="w-5 relative inline -mr-2" style="top: -2px;" alt="pr">{/if}
+            </span>
+
 						{#if contributor}
-							<span class="ml-4 relative top-1 text-purple text-xs font-normal">[contributor]</span>
+							<span class="ml-4 relative top-1 text-purple text-xs font-normal flex gap-x-0.5">
+                [contributor]
+              </span>
 						{/if}
 					</div>
 				</div>
