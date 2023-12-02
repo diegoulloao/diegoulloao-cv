@@ -45,7 +45,7 @@
   <!-- Name -->
   <div class="md:flex items-center">
     <div class="w-full flex flex-col">
-      <label for="name" class="leading-none text-gray-500">Name</label>
+      <label for="name" class="leading-none text-gray-500 text-sm sm:text-[16px]">Name</label>
       <input
         bind:value={name}
         id="name"
@@ -62,7 +62,7 @@
   <!-- Subject -->
   <div class="md:flex items-center mt-6 sm:mt-8">
     <div class="w-full flex flex-col">
-      <label for="subject" class="leading-none text-gray-500">Subject</label>
+      <label for="subject" class="leading-none text-gray-500 text-sm sm:text-[16px]">Subject</label>
       <input
         bind:value={subject}
         id="subject"
@@ -77,7 +77,7 @@
 
   <!-- Message -->
   <div class="w-full flex flex-col mt-6 sm:mt-8">
-    <label for="message" class="leading-none text-gray-500">Message</label>
+    <label for="message" class="leading-none text-gray-500 text-sm sm:text-[16px]">Message</label>
     <textarea
       bind:value={message}
       id="message"
