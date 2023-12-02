@@ -4,12 +4,13 @@
 	};
 </script>
 
+<!-- svelte-ignore a11y-click-events-have-key-events -->
 <div
 	id="scroll-top-button"
 	class={[
 		"rounded-full border border-gray-800 w-11 h-11 sm:w-10 sm:h-10 bg-black select-none cursor-pointer",
 		"fixed bottom-0 right-0 mr-6 mb-6 sm:mr-4 sm:mb-4 flex justify-center items-center shadow-sm z-50",
-		"transition ease-in-out active:border-gray-200 group xl:hover:bg-gray-900 active:!bg-white"
+		"transition ease-in-out active:border-gray-200 group xl:hover:bg-gray-900 active:!bg-gray-200"
 	].join(" ")}
 	on:click={onScrollTop}
 >

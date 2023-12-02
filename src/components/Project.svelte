@@ -37,7 +37,7 @@
 				<div class="ml-3 flex flex-col justify-center">
 					<div class="flex">
 						<span class="text-gray-200 font-semibold">
-              {repo} {#if contributor}<img src="/icons/github-pr.svg" class="w-5 relative inline -mr-2" style="top: -2px;" alt="pr">{/if}
+              {repo} {#if contributor}<img src="/icons/github-pr.svg" class="w-4 relative inline -mr-2.5" style="top: -2px;" alt="pr">{/if}
             </span>
 
 						{#if contributor}
