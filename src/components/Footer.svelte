@@ -5,7 +5,10 @@
 
 <!-- Footer -->
 <footer
-	class="footer flex flex-col justify-center gap-y-6 sm:gap-y-9 text-gray-700 text-center mt-24 sm:mt-32 mb-4"
+	class={[
+		"footer flex flex-col justify-center gap-y-6 sm:gap-y-9 text-gray-700 text-center",
+		"mt-24 sm:mt-32 mb-10"
+	].join(" ")}
 >
 	<div class="rrss-container flex space-x-3 justify-center">
 		<!-- x -->
