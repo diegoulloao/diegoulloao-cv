@@ -27,7 +27,7 @@
 			<!-- chilean flag -->
 			<div
 				class={[
-					"absolute top-2 left-1 rounded-full w-10 h-10",
+					"absolute top-0 left-2 rounded-full w-10 h-10",
 					"flex items-center bg-gray-900 text-[26px]",
 					"cursor-pointer border border-gray-800 hover:w-20",
 					"pl-1.5 transition-all group"
