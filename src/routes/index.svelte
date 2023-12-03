@@ -35,7 +35,7 @@
 				src="/diego.jpg"
 				fetchpriority="high"
 				alt="none"
-				class="profile-on-load rounded-full max-w-[230px] sm:max-w-[250px]"
+				class="rounded-full max-w-[230px] sm:max-w-[250px]"
 			/>
 
 			<!-- chilean flag -->

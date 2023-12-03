@@ -76,7 +76,7 @@ $gradient-primary: linear-gradient(90.69deg, $cyan 13.42%, $purple 42.37%, $blue
 
 @keyframes fade {
 	0%,
-	30% {
+	60% {
 		opacity: 0;
 	}
 	100% {
@@ -212,12 +212,8 @@ ul.dash-list {
 	animation: blink-animation 710ms infinite ease-in-out;
 }
 
-.profile-on-load {
-	animation: fade 400ms;
-}
-
 .flag-on-load {
-	animation: fade 700ms;
+	animation: fade 800ms;
 }
 
 .project-card:hover > a {
