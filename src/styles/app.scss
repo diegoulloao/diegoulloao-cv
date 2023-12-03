@@ -74,6 +74,26 @@ $gradient-primary: linear-gradient(90.69deg, $cyan 13.42%, $purple 42.37%, $blue
 	}
 }
 
+@keyframes flip {
+	0%,
+	35% {
+		transform: rotateY(90deg);
+	}
+	100% {
+		transform: rotateY(0deg);
+	}
+}
+
+@keyframes fade {
+	0%,
+	60% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
 /*
 |-----------------------------------------------------------------------------
 | General
@@ -200,6 +220,14 @@ ul.dash-list {
 
 .blink-animation {
 	animation: blink-animation 710ms infinite ease-in-out;
+}
+
+.flip-on-load {
+	animation: flip 500ms;
+}
+
+.fade-flag-on-load {
+	animation: fade 700ms;
 }
 
 .project-card:hover > a {
