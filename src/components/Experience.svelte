@@ -34,7 +34,7 @@
 
 		<div class="experience-location text-sm text-gray-700">
       {#if type}
-        <img src={`/icons/${type}.svg`} class="inline relative -top-0.5 left-1 w-3.5" alt="icon" />
+        <img src={`/icons/${type}.svg`} class="inline relative -top-0.5 left-0 w-3.5" alt="icon" />
       {/if}
 
 			{location}
