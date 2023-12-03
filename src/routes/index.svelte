@@ -74,7 +74,7 @@
 					<TypedJs
 						loop
 						backDelay={3000}
-						typeSpeed={30}
+						typeSpeed={40}
 						strings={["Currently working remotely for overseas companies."]}
 					>
 						<span class="typing text-gray-200" />
