@@ -50,30 +50,30 @@
 				</span>
 			</div>
 
-			<!-- github link mobile -->
+			<!-- linkedin link mobile -->
 			<a
 				href={rrss.github}
 				target="_blank"
 				class={[
 					"absolute bottom-1 right-0 rounded-full w-7 h-7 md:hidden",
 					"flex justify-center items-center bg-gray-900 hover:bg-gray-900/80 transition-colors",
-					"border border-gray-800 p-1"
+					"border border-gray-800 p-0.5"
 				].join(" ")}
 			>
-				<img src="/icons/rrss/github.svg" alt="icon" />
+				<img src="/icons/rrss/linkedin-2.svg" alt="icon" />
 			</a>
 
-			<!-- linkedin link mobile -->
+			<!-- github link mobile -->
 			<a
 				href={rrss.linkedin}
 				target="_blank"
 				class={[
 					"absolute bottom-9 -right-5 rounded-full w-7 h-7 md:hidden",
 					"flex justify-center items-center bg-gray-900 hover:bg-gray-900/80 transition-colors",
-					"cursor-pointer border border-gray-800 p-0.5"
+					"cursor-pointer border border-gray-800 p-1"
 				].join(" ")}
 			>
-				<img src="/icons/rrss/linkedin-2.svg" alt="icon" />
+				<img src="/icons/rrss/github.svg" alt="icon" />
 			</a>
 		</div>
 
