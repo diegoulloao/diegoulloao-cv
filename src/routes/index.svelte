@@ -1,4 +1,7 @@
 <script>
+  // Svelte
+  import { blur } from "svelte/transition"
+
 	// Components
 	import { Skill, Project, Experience, Button } from "@components";
 
@@ -24,7 +27,7 @@
 <Seo />
 
 <!-- Index Page -->
-<main id="home">
+<main id="home" transition:blur={{ amount: 30, duration: 200 }}>
 	<!-- Intro Section -->
 	<section class="intro flex flex-col sm:flex-row mt-8 sm:mt-24 gap-10 sm:gap-14">
 		<div class="profile-img relative">

@@ -1,4 +1,7 @@
 <script>
+  // Svelte
+  import { blur } from "svelte/transition"
+
   // Components
   import { ContactForm } from "@components"
 
@@ -13,7 +16,7 @@
 <Seo title="Diego Ulloa - Let's get in touch" />
 
 <!-- Contact Page -->
-<main id="contact" class="gap-y-16">
+<main id="contact" class="gap-y-16" transition:blur={{ amount: 30, duration: 200 }}>
   <!-- Title -->
   <h2 class="text-2xl sm:text-3xl text-gray-200 mt-12 text-center">
     <!-- Desktop title -->
