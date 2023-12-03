@@ -9,7 +9,7 @@
 	let scrollButtonRef;
 
 	// States
-	let scrollPorcentage = 0;
+	let scrollPorcentage = "0%";
 
 	const onScrollTopClick = () => {
 		window.scrollTo({ top: 0, behavior: "smooth" });
@@ -22,12 +22,16 @@
 		const st = "scrollTop";
 		const sh = "scrollHeight";
 
-		return Math.floor(((h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight)) * 100);
+    let percent = Math.floor(((h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight)) * 100);
+
+    if (percent < 0) return "0%"
+    if (percent > 100) return "100%"
+    return percent + "%"
 	};
 
 	const onPageScroll = () => {
 		// set scroll porcentage
-		scrollPorcentage = getScrollPercent() + "%";
+		scrollPorcentage = getScrollPercent()
 
 		if (window.scrollY <= OFFSET_SCROLL) {
 			if (scrollButtonRef.classList.contains("opacity-0")) return;
