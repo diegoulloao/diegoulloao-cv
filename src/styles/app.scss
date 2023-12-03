@@ -66,8 +66,7 @@ $gradient-primary: linear-gradient(90.69deg, $cyan 13.42%, $purple 42.37%, $blue
 */
 
 @keyframes blink-animation {
-	0%,
-	70% {
+	0% {
 		opacity: 1;
 	}
 	100% {
@@ -200,7 +199,7 @@ ul.dash-list {
 }
 
 .blink-animation {
-	animation: blink-animation 1.5s infinite ease;
+	animation: blink-animation 720ms infinite ease-in;
 }
 
 .project-card:hover > a {

@@ -2,6 +2,9 @@
 	// Components
 	import { Skill, Project, Experience, Button } from "@components";
 
+	// Libraries
+	import TypedJs from "@loscrackitos/svelte-typed-js";
+
 	// Data sources
 	import skills from "@data/skills.json";
 	import projects from "@data/projects.json";
@@ -67,7 +70,16 @@
 
 				<br />
 
-				<p class="text-gray-200">Currently working remotely for overseas companies.</p>
+				<div class="profile-typing-container min-h-[48px] lg:min-h-full">
+					<TypedJs
+						loop
+						backDelay={3000}
+						typeSpeed={30}
+						strings={["Currently working remotely for overseas companies."]}
+					>
+						<span class="typing text-gray-200" />
+					</TypedJs>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -129,7 +141,7 @@
 					period={e.period}
 					position={e.position}
 					location={e.location}
-          type={e.type}
+					type={e.type}
 					description={e.description}
 				/>
 			{/each}
@@ -145,7 +157,7 @@
 						period={e.period}
 						position={e.position}
 						location={e.location}
-            type={e.type}
+						type={e.type}
 						description={e.description}
 					/>
 				</div>
