@@ -68,6 +68,6 @@
 </div>
 
 <!-- scroll porcentage -->
-<div class="fixed z-50 left-0 bottom-6 mb-1 sm:bottom-4 p-2 bg-purple text-black text-sm font-light">
+<div class="fixed z-50 left-0 bottom-0 p-2 bg-purple text-black text-sm font-light shadow">
 	{scrollPorcentage}
 </div>
