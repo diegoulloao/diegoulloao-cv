@@ -35,7 +35,7 @@
 				src="/diego.jpg"
 				fetchpriority="high"
 				alt="none"
-				class="flip-on-load rounded-full max-w-[230px] sm:max-w-[250px]"
+				class="profile-on-load rounded-full max-w-[230px] sm:max-w-[250px]"
 			/>
 
 			<!-- chilean flag -->
@@ -44,7 +44,7 @@
 					"absolute top-0 left-2 rounded-full w-10 h-10",
 					"flex items-center bg-gray-900 text-[26px]",
 					"cursor-pointer border border-gray-800 hover:w-20",
-					"pl-1.5 transition-all group fade-flag-on-load"
+					"pl-1.5 transition-all group flag-on-load"
 				].join(" ")}
 			>
 				🇨🇱
