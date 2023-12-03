@@ -5,9 +5,9 @@
 
 <!-- Nav -->
 <header class="sticky bg-black/75 backdrop-blur-2xl font-normal z-50 top-0 py-3 sm:px-8 flex justify-between shadow-md overflow-visible">
-	<nav class="flex nav-list mx-auto sm:mx-0 space-x-12 sm:space-x-14 hover:text-blue">
-		<a href="/">Home</a>
-		<a href="/contact">Contact</a>
+	<nav class="flex nav-list mx-auto sm:mx-0 space-x-12 sm:space-x-14">
+		<a class="hover:text-[#3146c6]" href="/">Home</a>
+		<a class="hover:text-[#3146c6]" href="/contact">Contact</a>
 		<span class="flex">
 			<a
 				class="text-purple no-hover border-b-2 border-purple pb-1"
