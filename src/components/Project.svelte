@@ -32,7 +32,7 @@
 		<!-- Header -->
 		<div class="project top">
 			<div class="flex flex-row">
-				<img src={thumbnail} class="w-8" alt="" />
+				<img src={thumbnail} fetchpriority="low" class="w-8" alt="" />
 
 				<div class="ml-3 flex flex-col justify-center">
 					<div class="flex">

@@ -28,7 +28,12 @@
 	<!-- Intro Section -->
 	<section class="intro flex flex-col sm:flex-row mt-8 sm:mt-24 gap-10 sm:gap-14">
 		<div class="profile-img relative">
-			<img src="/diego.jpg" alt="none" class="flip-on-load rounded-full max-w-[230px] sm:max-w-[250px]" />
+			<img
+				src="/diego.jpg"
+				fetchpriority="high"
+				alt="none"
+				class="flip-on-load rounded-full max-w-[230px] sm:max-w-[250px]"
+			/>
 
 			<!-- chilean flag -->
 			<div
