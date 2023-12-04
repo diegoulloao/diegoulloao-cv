@@ -13,7 +13,7 @@
 </script>
 
 <!-- Seo -->
-<!-- <Seo title="Diego Ulloa - Let's get in touch" /> -->
+<Seo title="Diego Ulloa - Let's get in touch" />
 
 <!-- Contact Page -->
 <main id="contact" class="gap-y-16" transition:blur={{ amount: 30, duration: 200 }}>
