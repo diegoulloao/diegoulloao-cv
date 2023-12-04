@@ -1,6 +1,6 @@
 <script>
   // Seo
-  import SvelteSeo from "svelte-seo"
+  // import SvelteSeo from "svelte-seo"
 
   // Props
   export let
@@ -9,7 +9,7 @@
 </script>
 
 <!-- Seo -->
-<SvelteSeo
+<!-- <SvelteSeo
   {title}
   {description}
   keywords={[
@@ -44,4 +44,6 @@
     image: "https://diegoulloa.dev/og-image.png",
     imageAlt: "og-image"
   }}
-/>
+/> -->
+
+<div></div>

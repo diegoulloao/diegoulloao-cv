@@ -24,7 +24,7 @@
 </script>
 
 <!-- Seo -->
-<Seo />
+<!-- <Seo /> -->
 
 <!-- Index Page -->
 <main id="home" transition:blur={{ amount: 30, duration: 200 }}>

@@ -1,15 +1,13 @@
 import preprocess from "svelte-preprocess";
-import vercel from "@sveltejs/adapter-vercel";
+import adapter from "@sveltejs/adapter-auto";
 import path from "path";
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
-		// hydrate the <div id="svelte"> element in src/app.html
-		target: "#svelte",
-		adapter: vercel(),
+		adapter: adapter()
 
-		vite: {
+		/* vite: {
 			css: {
 				preprocessorOptions: {
 					scss: {
@@ -31,7 +29,7 @@ const config = {
 					"@seo": path.resolve("src/seo")
 				}
 			}
-		}
+		} */
 	},
 
 	preprocess: [
