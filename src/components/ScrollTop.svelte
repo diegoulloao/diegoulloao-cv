@@ -22,16 +22,16 @@
 		const st = "scrollTop";
 		const sh = "scrollHeight";
 
-    let percent = Math.floor(((h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight)) * 100);
+		let percent = Math.floor(((h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight)) * 100);
 
-    if (percent < 0) return "0%"
-    if (percent > 100) return "100%"
-    return percent + "%"
+		if (percent < 0) return "0%";
+		if (percent > 100) return "100%";
+		return percent + "%";
 	};
 
 	const onPageScroll = () => {
 		// set scroll porcentage
-		scrollPorcentage = getScrollPercent()
+		scrollPorcentage = getScrollPercent();
 
 		if (window.scrollY <= OFFSET_SCROLL) {
 			if (scrollButtonRef.classList.contains("opacity-0")) return;
@@ -63,6 +63,8 @@
 		"opacity-0 translate-y-10"
 	].join(" ")}
 	on:click={onScrollTopClick}
+	role="button"
+  tabindex="0"
 >
 	<div
 		class="flex justify-center w-4 relative bottom-0 xl:group-hover:bottom-0.5 transition-all duration-200"
@@ -72,6 +74,8 @@
 </div>
 
 <!-- scroll porcentage -->
-<div class="fixed z-50 left-0 bottom-0 px-2 py-1 bg-gray-900 text-gray-200 text-sm font-light shadow">
+<div
+	class="fixed z-50 left-0 bottom-0 px-2 py-1 bg-gray-900 text-gray-200 text-sm font-light shadow"
+>
 	{scrollPorcentage}
 </div>
