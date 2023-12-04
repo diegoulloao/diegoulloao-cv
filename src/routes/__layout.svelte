@@ -1,9 +1,15 @@
 <script>
+	// Svelte
+	import { page } from "$app/stores";
+
 	// Components
 	import { Header, Footer, ScrollTop } from "@components";
 
 	// Global Styles
 	import "@styles/app.scss";
+
+  // Pages without scroll button
+  const noScrollPaths = ["/contact"]
 </script>
 
 <!-- Container -->
@@ -23,5 +29,7 @@
 	<Footer />
 
 	<!-- Extra Elements -->
-	<ScrollTop />
+	{#if !noScrollPaths.includes($page.path)}
+		<ScrollTop />
+	{/if}
 </div>
