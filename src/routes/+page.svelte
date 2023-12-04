@@ -32,7 +32,7 @@
 	<section class="intro flex flex-col sm:flex-row mt-8 sm:mt-24 gap-10 sm:gap-14">
 		<div class="profile-img relative">
 			<img
-				src="/diego-2.jpg"
+				src="/diego.jpg"
 				fetchpriority="high"
 				alt="none"
 				class="rounded-full max-w-[230px] sm:max-w-[250px]"
