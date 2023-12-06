@@ -29,7 +29,7 @@
 	<Footer />
 
 	<!-- Extra Elements -->
-	{#if !noScrollPaths.includes($page.path)}
+	{#if !noScrollPaths.includes($page.route.id)}
 		<ScrollTop />
 	{/if}
 </div>
