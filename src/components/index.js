@@ -8,5 +8,6 @@ import Label from "@components/Label.svelte";
 import Button from "@components/Button.svelte";
 import ContactForm from "@components/ContactForm.svelte";
 import ScrollTop from "@components/ScrollTop.svelte";
+import Intro from "@components/Intro.svelte";
 
-export { Header, Skill, Project, Experience, Footer, Label, Button, ContactForm, ScrollTop };
+export { Header, Intro, Skill, Project, Experience, Footer, Label, Button, ContactForm, ScrollTop };
