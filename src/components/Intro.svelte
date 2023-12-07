@@ -100,3 +100,19 @@
 		</div>
 	</div>
 </div>
+
+<style lang="scss">
+	.profile-img {
+		width: 250px;
+
+		@media only screen and (max-width: 1024px) {
+			width: auto;
+			max-width: 250px;
+		}
+
+		@media only screen and (max-width: 640px) {
+			width: auto;
+			max-width: 230px !important;
+		}
+	}
+</style>
