@@ -67,5 +67,12 @@
 		"description": "Simple nvim plugin that copies the exact file location where the cursor is.",
 		"url": "https://github.com/diegoulloao/nvim-file-location",
 		"labels": ["lua"]
+	},
+	{
+		"repo": "ioquake3-server-gcloud",
+		"description": "The fastest way to deploy your own ioquake3 server using docker, kubernetes and google cloud. All in one command!",
+		"thumbnail": "https://github.com/diegoulloao/ioquake3-mac-install/raw/master/logo.png",
+		"url": "https://github.com/diegoulloao/ioquake3-server-gcloud",
+		"labels": ["sh"]
 	}
 ]
