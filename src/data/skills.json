@@ -1,18 +1,42 @@
 [
-	{
-		"title": "Frontend",
-		"items": ["React", "Next.js", "Gatsby", "Svelte", "Astro"]
-	},
-	{
-		"title": "Backend",
-		"items": ["Node.js", "Express.js", "Sequelize", "Postgres", "MySQL"]
-	},
-	{
-		"title": "Languages",
-		"items": ["Typescript", "Javascript", "GraphQL", "SASS", "Bash"]
-	},
-	{
-		"title": "Others",
-		"items": ["Tailwind.css", "Playwright", "Docker", "Vercel", "Jest"]
-	}
+  {
+    "title": "Frontend",
+    "items": [
+      "React",
+      "Next.js",
+      "Svelte",
+      "SvelteKit",
+      "Astro"
+    ]
+  },
+  {
+    "title": "Backend",
+    "items": [
+      "Node.js",
+      "Express.js",
+      "Sequelize",
+      "Postgres",
+      "MySQL"
+    ]
+  },
+  {
+    "title": "Languages",
+    "items": [
+      "Typescript",
+      "Javascript",
+      "GraphQL",
+      "SASS",
+      "Bash"
+    ]
+  },
+  {
+    "title": "Others",
+    "items": [
+      "Tailwind.css",
+      "Playwright",
+      "Docker",
+      "Vercel",
+      "Jest"
+    ]
+  }
 ]

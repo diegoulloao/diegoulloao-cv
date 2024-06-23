@@ -1,15 +1,21 @@
 <script>
-  // Props
-  export let skill
+	// Props
+	export let skill;
 </script>
 
 <!-- Skill -->
 <div>
-  <h4 class="text-xl sm:text-[22px] mb-0 sm:mb-1 font-normal text-gray-600">{skill.title}</h4>
+	<h4 class="mb-0 text-xl font-normal text-gray-600 sm:mb-1 sm:text-[22px]">
+		{#if skill.title || skill.title !== ""}
+			{skill.title}
+		{:else}
+			<span class="invisible">_</span>
+		{/if}
+	</h4>
 
-  <ul class="text-gray-200 text-sm sm:text-[16px] leading-6">
-    {#each skill.items as i}
-      <li>{i}</li>
-    {/each}
-  </ul>
+	<ul class="text-sm leading-6 text-gray-200 sm:text-[16px]">
+		{#each skill.items as i}
+			<li>{i}</li>
+		{/each}
+	</ul>
 </div>

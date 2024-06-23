@@ -5,3 +5,5 @@ node_modules
 /package
 bun.lockb
 yarn.lock
+.env
+.env.local

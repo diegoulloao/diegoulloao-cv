@@ -1,15 +1,15 @@
 <script>
-  // Svelte
-  import { blur } from "svelte/transition"
+	// Svelte
+	import { blur } from "svelte/transition";
 
-  // Components
-  import { ContactForm } from "@components"
+	// Components
+	import { ContactForm } from "@components";
 
-  // Seo
-  import Seo from "@seo"
+	// Seo
+	import Seo from "@seo";
 
-  // States
-  let response, clearForm
+	// States
+	let response, clearForm;
 </script>
 
 <!-- Seo -->
@@ -17,37 +17,29 @@
 
 <!-- Contact Page -->
 <main id="contact" class="gap-y-16" transition:blur={{ amount: 30, duration: 200 }}>
-  <!-- Title -->
-  <h2 class="text-2xl sm:text-3xl text-gray-200 mt-12 text-center">
-    <!-- Desktop title -->
-    <div class="hidden sm:block"><span>Let's get in touch</span> <span class="blink-animation text-purple">_</span></div>
+	<!-- Title -->
+	<h2 class="mt-12 text-center text-2xl text-gray-200 sm:text-3xl">
+		<div class="block">
+			<span>Get in touch</span> <span class="blink-animation text-purple">_</span>
+		</div>
+	</h2>
 
-    <!-- Mobile title -->
-    <div class="block sm:hidden"><span>Get in touch</span> <span class="blink-animation text-purple">_</span></div>
-  </h2>
+	{#if !response}
+		<!-- Form -->
+		<ContactForm bind:response bind:clearForm />
+	{:else if response.ok === false}
+		<h3 class="mt-20 text-center text-3xl text-gray-200">Error :(</h3>
 
-  {#if !response}
-    <!-- Form -->
-    <ContactForm bind:response bind:clearForm />
+		<button on:click={clearForm} class="mt-16 block w-full text-center text-sm text-gray-700">
+			try again
+		</button>
+	{:else}
+		<div class="contact-success">
+			<h3 class="mt-20 text-center text-3xl text-gray-200">Success</h3>
 
-  {:else if response.ok === false}
-    <h3 class="text-3xl text-gray-200 text-center mt-20">
-      Error :(
-    </h3>
-
-    <button on:click={clearForm} class="block w-full text-gray-700 text-sm text-center mt-16">
-      try again
-    </button>
-
-  {:else}
-    <div class="contact-success">
-      <h3 class="text-3xl text-gray-200 text-center mt-20">
-        Success
-      </h3>
-
-      <button on:click={clearForm} class="block w-full text-gray-700 text-sm text-center mt-16">
-        retry
-      </button>
-    </div>
-  {/if}
+			<button on:click={clearForm} class="mt-16 block w-full text-center text-sm text-gray-700">
+				retry
+			</button>
+		</div>
+	{/if}
 </main>

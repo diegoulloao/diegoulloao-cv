@@ -13,20 +13,16 @@
 </script>
 
 <!-- Project -->
-<div class="project-card relative group">
+<div class="project-card relative">
 	<!-- Card -->
 	<a
-		class="grid content-between relative w-auto border border-gray-900 p-6 group-hover:bg-gray-900 duration-100 {classes}"
+		class="{classes} relative grid w-auto content-between border border-gray-900 p-6 duration-100"
 		href={url}
 		target="_blank"
 	>
 		<!-- Share Icon -->
-		<div class="absolute right-1 top-1 bg-gray-900 p-1.5 z-10 group-hover:bg-gray-700">
-			<img
-				src="/icons/share.svg"
-				class="w-2.5 opacity-20 group-hover:opacity-50 transition-opacity duration-100"
-				alt="share-icon"
-			/>
+		<div class="absolute right-1 top-1 z-10 bg-gray-900 p-1.5">
+			<img src="/icons/share.svg" class="w-2.5 opacity-20 duration-100" alt="share-icon" />
 		</div>
 
 		<!-- Header -->
@@ -36,21 +32,27 @@
 
 				<div class="ml-3 flex flex-col justify-center">
 					<div class="flex">
-						<span class="text-gray-200 font-semibold">
-              {repo} {#if contributor}<img src="/icons/github-pr.svg" class="w-4 relative inline -mr-2.5" style="top: -2px;" alt="pr">{/if}
-            </span>
+						<span class="font-semibold text-gray-200">
+							{repo}
+							{#if contributor}<img
+									src="/icons/github-pr.svg"
+									class="relative -mr-2.5 inline w-4"
+									style="top: -2px;"
+									alt="pr"
+								/>{/if}
+						</span>
 
 						{#if contributor}
-							<span class="ml-4 relative top-1 text-purple text-xs font-normal flex gap-x-0.5">
-                [contributor]
-              </span>
+							<span class="text-purple relative top-1 ml-4 flex gap-x-0.5 text-xs font-normal">
+								[contributor]
+							</span>
 						{/if}
 					</div>
 				</div>
 			</div>
 
 			<!-- Content -->
-			<p class="text-sm text-gray-600 group-hover:text-gray-500 mt-3 w-auto max-w-sm">
+			<p class="mt-3 w-auto max-w-sm text-sm text-gray-600">
 				{description}
 			</p>
 		</div>
