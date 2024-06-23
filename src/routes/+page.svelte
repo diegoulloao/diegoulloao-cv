@@ -61,7 +61,7 @@
 				&nbsp;Contributions<span class="blink-animation">_</span>&nbsp;
 			</h2>
 
-			<div class="my-4 flex space-x-6 text-sm text-gray-500">
+			<div class="my-4 flex space-x-3 text-sm text-gray-500 lg:space-x-6">
 				<button
 					type="button"
 					class:text-white={projectsChoice === "author"}
