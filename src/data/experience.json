@@ -6,7 +6,7 @@
     "position": "Senior Frontend Developer",
     "location": "San Francisco, EEUU [remote]",
     "type": "remote",
-    "description": "Responsible of architecting and coding the core of the product, mentoring developers, reviewing code, and sharing knowledge about best practices. Our product was utilized by renowned companies like Disney Hotstar and Postman."
+    "description": "Responsible of architecting and coding the core of the product, mentoring developers, reviewing coworkers code, and sharing knowledge about best practices to the team mates. The product is utilized by global renowned companies like Disney Hotstar and Postman."
   },
   {
     "company": "Unboxable",
@@ -15,16 +15,16 @@
     "position": "Frontend Developer",
     "location": "Tel Aviv, Israel [remote]",
     "type": "remote",
-    "description": "Responsible for thinking up and coding customized frontend & backend solutions tailored to meet specific requirements of the company's product. In charge of provide solutions that cannot be found elsewhere."
+    "description": "Responsible for thinking up and coding customized frontend/backend solutions tailored to meet the specific requirements of the company's product at his particular point of growing. Providing unique solutions that could not be found elsewhere by the team."
   },
   {
     "company": "Ensambler",
     "logo": "/logos/ensambler.png",
     "period": "2019-2020",
-    "position": "Founder / Team Lead",
+    "position": "Founder | Backend Developer",
     "location": "Santiago, Chile",
     "type": "presencial",
-    "description": "Founder of a small team of developers, overseeing decision-making, and backend developer. Focused on managing the entire architecture of the services we offered to our customers and leading my fellow founders."
+    "description": "Founder of a small team of developers, overseeing decision-making, and backend developer. In charge of managing the entire architecture of the services that our company offers to our customers playing the role of leading my fellow founders."
   },
   {
     "company": "Neoproyex",
@@ -33,7 +33,7 @@
     "position": "Fullstack Developer",
     "location": "Santiago, Chile",
     "type": "presencial",
-    "description": "Second time around. Close collaboration with graphic designers for websites and applications development for our customers, catering to various types of local businesses in Chile."
+    "description": "Second time around. Close collaboration with ui designers for websites & applications development, crafting solutions for bunch types of local businesses in Chile, providing to the company reputation of being flexible and proficient in our work."
   },
   {
     "company": "Freelancer",
@@ -51,6 +51,6 @@
     "position": "Fullstack Developer",
     "location": "Santiago, Chile [remote]",
     "type": "remote",
-    "description": "Websites development using the latest web technologies at the time. Serving the needs of variety of local businesses such as laundries, hotels, real estate portals, metallurgical companies, highlighting well known companies in Chile like Cardinale."
+    "description": "Websites development using the latest web technologies at the time. Serving the needs of a variety of local businesses such as laundries, hotels, real estate portals, metallurgical companies, highlighting well-known companies in Chile like Cardinale®."
   }
 ]
