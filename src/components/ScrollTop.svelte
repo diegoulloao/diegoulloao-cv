@@ -57,25 +57,25 @@
 	bind:this={scrollButtonRef}
 	id="scroll-top-button"
 	class={[
-		"rounded-full border border-gray-800 w-11 h-11 sm:w-10 sm:h-10 bg-black select-none cursor-pointer",
-		"fixed bottom-0 right-0 mr-6 mb-6 sm:mr-4 sm:mb-4 flex justify-center items-center shadow-sm z-50",
-		"transition ease-in-out active:border-gray-200 group xl:hover:bg-gray-900 active:!bg-gray-200",
-		"opacity-0 translate-y-10"
+		"h-11 w-11 cursor-pointer select-none rounded-full border border-gray-800 bg-black sm:h-10 sm:w-10",
+		"fixed bottom-0 right-0 z-50 mb-6 mr-6 flex items-center justify-center shadow-sm sm:mb-4 sm:mr-4",
+		"group transition ease-in-out active:border-gray-200 active:!bg-gray-200 xl:hover:bg-gray-900",
+		"translate-y-10 opacity-0"
 	].join(" ")}
 	on:click={onScrollTopClick}
 	role="button"
-  tabindex="0"
+	tabindex="0"
 >
 	<div
-		class="flex justify-center w-4 relative bottom-0 xl:group-hover:bottom-0.5 transition-all duration-200"
+		class="relative bottom-0 flex w-4 justify-center transition-all duration-200 xl:group-hover:bottom-0.5"
 	>
-		<img src="/icons/chevron-up.svg" alt="chevron-up" />
+		<img src="/icons/chevron-up.svg" loading="lazy" fetchpriority="low" alt="chevron-up" />
 	</div>
 </div>
 
 <!-- scroll porcentage -->
 <div
-	class="fixed z-50 left-0 bottom-0 px-2 py-1 bg-gray-900 text-gray-200 text-sm font-light shadow"
+	class="fixed bottom-0 left-0 z-50 bg-gray-900 px-2 py-1 text-sm font-light text-gray-200 shadow"
 >
 	{scrollPorcentage}
 </div>
