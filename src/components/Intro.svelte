@@ -10,26 +10,28 @@
 </script>
 
 <div class="profile-img relative">
-	<img
-		src="/diego.jpg"
-		fetchpriority="high"
-		alt="none"
-		class="max-w-[230px] rounded-full sm:max-w-[250px]"
-	/>
+	<div class="avatar">
+		<img
+			src="/diego.jpg"
+			fetchpriority="high"
+			alt="none"
+			class="max-w-[230px] rounded-full sm:max-w-[250px]"
+		/>
+	</div>
 
 	<!-- chilean flag -->
 	<div
 		class={[
-			"absolute top-0 left-2 rounded-full w-10 h-10",
+			"absolute left-2 top-0 h-10 w-10 rounded-full",
 			"flex items-center bg-gray-900 text-[26px]",
 			"cursor-pointer border border-gray-800 hover:w-20",
-			"pl-1.5 transition-all group flag-on-load"
+			"flag-on-load group pl-1.5 transition-all"
 		].join(" ")}
 	>
 		🇨🇱
 		<span
 			class={[
-				"ml-1 opacity-0 group-hover:opacity-100 text-xs text-white",
+				"ml-1 text-xs text-white opacity-0 group-hover:opacity-100",
 				"transition-opacity ease-out"
 			].join(" ")}
 		>
@@ -113,6 +115,37 @@
 		@media only screen and (max-width: 640px) {
 			width: auto;
 			max-width: 230px !important;
+		}
+	}
+
+	.avatar {
+		padding: 3px;
+		display: inline-block;
+		border-radius: 50%;
+		background: linear-gradient(
+			60deg,
+			#ff4ecd,
+			#b867e4,
+			#3f1599,
+			#463bb8,
+			#1d28ac,
+			#669df7,
+			#aff9fd
+		);
+
+		animation: animated-gradient 3s ease alternate infinite;
+		background-size: 200% 200%;
+	}
+
+	@keyframes animated-gradient {
+		0% {
+			background-position: 0% 50%;
+		}
+		50% {
+			background-position: 100% 50%;
+		}
+		100% {
+			background-position: 0% 50%;
 		}
 	}
 </style>
