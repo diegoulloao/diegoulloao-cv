@@ -8,20 +8,20 @@
 	// Global Styles
 	import "@styles/app.scss";
 
-  // Pages without scroll button
-  const noScrollPaths = ["/contact"]
+	// Pages without scroll button
+	const noScrollPaths = ["/contact"];
 </script>
+
+<!-- Sticky Nav Menu -->
+<Header />
 
 <!-- Container -->
 <div
 	class={[
-		"container relative z-30 min-h-screen mx-auto py-8 flex flex-col",
-		"px-3 sm:px-3 md:px-4 lg:px-6 xl:px-0"
+		"container relative z-30 mx-auto flex min-h-screen flex-col pb-8",
+		"px-3 md:px-4 lg:px-6 xl:px-0"
 	].join(" ")}
 >
-	<!-- Nav Menu -->
-	<Header />
-
 	<!-- Page Content -->
 	<slot />
 

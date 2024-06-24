@@ -8,9 +8,12 @@
 
 <!-- Nav -->
 <header
-	class="sticky top-0 z-50 flex justify-between overflow-visible bg-black/75 py-3 font-normal shadow-md backdrop-blur-2xl sm:px-8"
+	class={[
+		"sticky top-0 z-50 mx-auto mt-8 flex justify-between overflow-visible bg-black/75 px-3",
+		"py-3 font-normal shadow-md backdrop-blur-2xl sm:px-4 md:px-24 lg:px-16 xl:px-20"
+	].join(" ")}
 >
-	<nav class="nav-list mx-auto flex space-x-12 sm:mx-0 sm:space-x-14">
+	<nav class="nav-list mx-auto flex space-x-12 sm:mx-0 sm:space-x-14 sm:pl-8">
 		<a href="/" class={$page.url.pathname !== "/" ? "text-gray-500" : null}>Home</a>
 		<a href="/contact" class={$page.url.pathname !== "/contact" ? "text-gray-500" : null}>
 			Contact
@@ -31,7 +34,7 @@
 		</span>
 	</nav>
 
-	<div class="social hidden space-x-0 text-gray-600 sm:inline">
+	<div class="social hidden space-x-0 text-gray-600 sm:inline sm:pr-8">
 		<a class="hover:text-white" href={rrss.github} target="__blank"> Github </a>
 
 		<span> | </span>
