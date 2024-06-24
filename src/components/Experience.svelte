@@ -34,7 +34,12 @@
 
 		<div class="experience-location text-sm text-gray-700">
 			{#if type}
-				<img src={`/icons/${type}.svg`} class="relative -top-0.5 left-0 inline w-3.5" alt="icon" />
+				<img
+					src={`/icons/${type}.svg`}
+					loading="lazy"
+					class="relative -top-0.5 left-0 inline w-3.5"
+					alt="icon"
+				/>
 			{/if}
 
 			{location}
@@ -42,6 +47,6 @@
 	</div>
 
 	<div class="experience-img lg:w-18 border-purple w-14">
-		<img src={logo} alt="" />
+		<img src={logo} loading="lazy" alt="" />
 	</div>
 </div>

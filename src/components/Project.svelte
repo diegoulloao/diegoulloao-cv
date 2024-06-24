@@ -22,24 +22,32 @@
 	>
 		<!-- Share Icon -->
 		<div class="absolute right-1 top-1 z-10 bg-gray-900 p-1.5">
-			<img src="/icons/share.svg" class="w-2.5 opacity-20 duration-100" alt="share-icon" />
+			<img
+				src="/icons/share.svg"
+				loading="lazy"
+				class="w-2.5 opacity-20 duration-100"
+				alt="share-icon"
+			/>
 		</div>
 
 		<!-- Header -->
 		<div class="project top">
 			<div class="flex flex-row">
-				<img src={thumbnail} fetchpriority="low" class="w-8" alt="" />
+				<img src={thumbnail} loading="lazy" class="w-8" alt="" />
 
 				<div class="ml-3 flex flex-col justify-center">
 					<div class="flex">
 						<span class="font-semibold text-gray-200">
 							{repo}
-							{#if contributor}<img
+							{#if contributor}
+								<img
 									src="/icons/github-pr.svg"
+									loading="lazy"
 									class="relative -mr-2.5 inline w-4"
 									style="top: -2px;"
 									alt="pr"
-								/>{/if}
+								/>
+							{/if}
 						</span>
 
 						{#if contributor}

@@ -14,8 +14,14 @@
 	].join(" ")}
 >
 	<nav class="nav-list mx-auto flex space-x-12 sm:mx-0 sm:space-x-14 sm:pl-8">
-		<a href="/" class={$page.url.pathname !== "/" ? "text-gray-500" : null}>Home</a>
-		<a href="/contact" class={$page.url.pathname !== "/contact" ? "text-gray-500" : null}>
+		<a data-sveltekit-noscroll href="/" class={$page.url.pathname !== "/" ? "text-gray-500" : null}
+			>Home</a
+		>
+		<a
+			data-sveltekit-noscroll
+			href="/contact"
+			class={$page.url.pathname !== "/contact" ? "text-gray-500" : null}
+		>
 			Contact
 		</a>
 

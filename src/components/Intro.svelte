@@ -14,7 +14,7 @@
 		src="/diego.jpg"
 		fetchpriority="high"
 		alt="none"
-		class="rounded-full max-w-[230px] sm:max-w-[250px]"
+		class="max-w-[230px] rounded-full sm:max-w-[250px]"
 	/>
 
 	<!-- chilean flag -->
@@ -42,13 +42,13 @@
 		href={rrss.github}
 		target="_blank"
 		class={[
-			"absolute bottom-1 right-0 rounded-full w-7 h-7 md:hidden",
-			"flex justify-center items-center bg-gray-900 hover:bg-gray-900/80 transition-colors",
-			"border border-gray-800 p-0.5 select-none"
+			"absolute bottom-1 right-0 h-7 w-7 rounded-full md:hidden",
+			"flex items-center justify-center bg-gray-900 transition-colors hover:bg-gray-900/80",
+			"select-none border border-gray-800 p-0.5"
 		].join(" ")}
 		style="text-decoration: none"
 	>
-		<img src="/icons/rrss/linkedin-2.svg" alt="icon" />
+		<img src="/icons/rrss/linkedin-2.svg" loading="lazy" alt="icon" />
 	</a>
 
 	<!-- github link mobile -->
@@ -56,24 +56,24 @@
 		href={rrss.linkedin}
 		target="_blank"
 		class={[
-			"absolute bottom-9 -right-5 rounded-full w-7 h-7 md:hidden",
-			"flex justify-center items-center bg-gray-900 hover:bg-gray-900/80 transition-colors",
-			"cursor-pointer border border-gray-800 p-1 select-none"
+			"absolute -right-5 bottom-9 h-7 w-7 rounded-full md:hidden",
+			"flex items-center justify-center bg-gray-900 transition-colors hover:bg-gray-900/80",
+			"cursor-pointer select-none border border-gray-800 p-1"
 		].join(" ")}
 		style="text-decoration: none"
 	>
-		<img src="/icons/rrss/github.svg" alt="icon" />
+		<img src="/icons/rrss/github.svg" loading="lazy" alt="icon" />
 	</a>
 </div>
 
-<div class="description max-w-2xl flex flex-col justify-center text-gray-200">
+<div class="description flex max-w-2xl flex-col justify-center text-gray-200">
 	<div>
-		<h2 class="text-3xl md:text-5xl mb-4 bg-title">
+		<h2 class="bg-title mb-4 text-3xl md:text-5xl">
 			&nbsp;Diego Ulloa<span class="blink-animation">_</span>&nbsp;
 		</h2>
 	</div>
 
-	<div class="text-gray-600 text-sm sm:text-[16px] leading-6">
+	<div class="text-sm leading-6 text-gray-600 sm:text-[16px]">
 		<p>
 			Experienced Fullstack Developer with a passion for Open Source contributions. Self-taught
 			coder since age 16.

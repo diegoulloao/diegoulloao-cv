@@ -15,7 +15,15 @@
 >
 	<div class="p-4">
 		<div class="flex items-center space-x-4">
-			<img src={sponsor.avatar} alt="Sponsor Avatar" width={48} height={48} class="rounded-full" />
+			<img
+				src={sponsor.avatar}
+				alt="Sponsor Avatar"
+				loading="lazy"
+				fetchpriority="low"
+				width={48}
+				height={48}
+				class="rounded-full"
+			/>
 
 			<div>
 				<h3 class="text-lg font-semibold">{sponsor.name ?? sponsor.user}</h3>
