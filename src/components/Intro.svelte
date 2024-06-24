@@ -15,7 +15,7 @@
 			src="/diego.jpg"
 			fetchpriority="high"
 			alt="none"
-			class="max-w-[230px] rounded-full sm:max-w-[250px]"
+			class="max-w-[220px] rounded-full sm:max-w-[250px]"
 		/>
 	</div>
 
