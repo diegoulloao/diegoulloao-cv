@@ -1,31 +1,26 @@
-<!DOCTYPE html>
+<!doctype html>
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<!-- Fav icon -->
-		<link rel="icon" href="/favicon.png" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<!-- Google Fonts -->
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			rel="preload"
-			as="style"
-			href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600&display=swap"
-		/>
-		<link
-			rel="stylesheet"
-			media="print"
-			onload="this.onload=null;this.removeAttribute('media');"
-			href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600&display=swap"
-		/>
+  <!-- Fav icon -->
+  <link rel="icon" href="/favicon.png" />
 
-		%sveltekit.head%
-	</head>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="style"
+    href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600&display=swap" />
+  <link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');"
+    href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600&display=swap" />
 
-	<body class="scrollbar scrollbar-w-1.5 scrollbar-thumb-[#ff4ecd] scrollbar-track-black">
-		<div id="svelte">%sveltekit.body%</div>
-	</body>
+  %sveltekit.head%
+</head>
+
+<body class="scrollbar scrollbar-track-black scrollbar-thumb-[#ff4ecd] scrollbar-w-1.5">
+  <div id="svelte">%sveltekit.body%</div>
+</body>
+
 </html>
