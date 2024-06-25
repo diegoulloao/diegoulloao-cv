@@ -15,7 +15,6 @@
 
 	// SSR Data
 	export let data;
-	console.log({ data });
 
 	// Constants
 	const authorRegex = /^https:\/\/github.com\/(diegoulloao|bananasplit-js)/;
@@ -84,8 +83,11 @@
 				class="projects-list grid grid-cols-1 gap-3 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4"
 			>
 				{#each projects as p}
+					{@const repoKey = p.url.replace(/^https?:\/\/github.com\//, "").split("/")[1]}
+
 					<Project
 						repo={p.repo}
+						stars={data?.projects?.[repoKey]?.stars}
 						thumbnail={p.thumbnail}
 						description={p.description}
 						contributor={p.contributor}

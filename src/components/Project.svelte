@@ -5,6 +5,7 @@
 	// Props
 	export let description,
 		repo,
+		stars,
 		url = "#!",
 		labels = [],
 		classes = "",
@@ -65,13 +66,22 @@
 			</p>
 		</div>
 
-		<!-- Labels -->
-		{#if labels.length}
-			<div class="project-bottom relative bottom-0 mt-3 sm:mt-4">
-				{#each labels as l}
-					<Label text={l} classes="mr-3" />
-				{/each}
-			</div>
-		{/if}
+		<div class="flex items-end justify-between">
+			{#if labels.length}
+				<!-- Labels -->
+				<div class="project-bottom relative bottom-0 mt-3 sm:mt-4">
+					{#each labels as l}
+						<Label text={l} classes="mr-3" />
+					{/each}
+				</div>
+
+				<!-- Stars -->
+				<div class="flex items-center text-xs">
+					{#if stars}
+						<p>🩷 {stars}</p>
+					{/if}
+				</div>
+			{/if}
+		</div>
 	</a>
 </div>
