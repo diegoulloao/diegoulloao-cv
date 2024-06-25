@@ -11,7 +11,9 @@ export default defineConfig({
 			"@components": path.resolve("src/components"),
 			"@stores": path.resolve("src/stores"),
 			"@data": path.resolve("src/data"),
-			"@seo": path.resolve("src/seo")
+			"@seo": path.resolve("src/seo"),
+			"@query": path.resolve("src/query-builder"),
+			"@helpers": path.resolve("src/helpers")
 		}
 	},
 	css: {

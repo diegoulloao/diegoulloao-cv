@@ -1,53 +1,55 @@
 // Env vars
 import { GITHUB_PAT } from "$env/static/private";
 
-// Constants
-const query = `
-  {
-    user(login: "diegoulloao") {
-      sponsorshipsAsMaintainer(first: 100) {
-        nodes {
-          sponsorEntity {
-            ... on User {
-              login
-              name
-              avatarUrl
-            }
-          }
-        }
-      }
-    }
-  }
-`;
+// Queries
+import { query } from "@query";
 
 export const load = async () => {
-  let sponsors = null;
+	let sponsors = null;
+	let projects = null;
 
-  try {
-    const response = await fetch("https://api.github.com/graphql", {
-      method: "POST",
-      headers: {
-        Authorization: `bearer ${GITHUB_PAT}`
-      },
-      body: JSON.stringify({ query })
-    });
+	try {
+		const response = await fetch("https://api.github.com/graphql", {
+			method: "POST",
+			headers: {
+				Authorization: `bearer ${GITHUB_PAT}`
+			},
+			body: JSON.stringify({ query })
+		});
 
-    if (response.status !== 200) {
-      throw new Error(`Status ${response.status}`);
-    }
+		if (response.status !== 200) {
+			throw new Error(`Status ${response.status}`);
+		}
 
-    const { data } = await response.json();
+		const { data } = await response.json();
 
-    sponsors = data.user.sponsorshipsAsMaintainer.nodes.map((s) => ({
-      name: s.sponsorEntity.name,
-      user: s.sponsorEntity.login,
-      avatar: s.sponsorEntity.avatarUrl
-    }));
-  } catch (error) {
-    console.error(error);
-  }
+		if (!Object.keys(data).length) {
+			throw new Error("No data error");
+		}
 
-  return {
-    sponsors
-  };
+		sponsors = data.user.sponsorshipsAsMaintainer.nodes.map((s) => ({
+			name: s.sponsorEntity.name,
+			user: s.sponsorEntity.login,
+			avatar: s.sponsorEntity.avatarUrl
+		}));
+
+		projects = Object.entries(data).reduce((acc, [key, obj]) => {
+			if (key.startsWith("org")) {
+				Object.values(obj).forEach((repo) => {
+					acc[repo.name] = {
+						stars: repo.stargazers.totalCount
+					};
+				});
+			}
+
+			return acc;
+		}, {});
+	} catch (error) {
+		console.error(error);
+	}
+
+	return {
+		sponsors,
+		projects
+	};
 };

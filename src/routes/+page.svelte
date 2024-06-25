@@ -15,6 +15,7 @@
 
 	// SSR Data
 	export let data;
+	console.log({ data });
 
 	// Constants
 	const authorRegex = /^https:\/\/github.com\/(diegoulloao|bananasplit-js)/;
