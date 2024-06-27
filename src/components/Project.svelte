@@ -10,7 +10,7 @@
 		labels = [],
 		classes = "",
 		contributor = false,
-		thumbnail = "https://cdn1.iconfinder.com/data/icons/logotypes/32/github-64.png";
+		thumbnail;
 </script>
 
 <!-- Project -->
@@ -34,7 +34,12 @@
 		<!-- Header -->
 		<div class="project top">
 			<div class="flex flex-row">
-				<img src={thumbnail} loading="lazy" class="w-8" alt="" />
+				<img
+					src={thumbnail ?? "https://cdn1.iconfinder.com/data/icons/logotypes/32/github-64.png"}
+					loading="lazy"
+					class="w-8"
+					alt=""
+				/>
 
 				<div class="ml-3 flex flex-col justify-center">
 					<div class="flex">
