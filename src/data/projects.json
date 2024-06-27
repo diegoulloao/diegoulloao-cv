@@ -81,7 +81,7 @@
   {
     "repo": "vim-cyberpunk",
     "thumbnail": "https://github.com/thedenisnikulin/vim-cyberpunk/raw/master/screenshots/cyberpunk.png",
-    "description": "cyberpunk colorscheme for vim, includes vim-airline and vim-lighline theme (which I contributed for)",
+    "description": "cyberpunk colorscheme for vim, includes vim-airline and vim-lighline theme which I contributed for",
     "url": "https://github.com/thedenisnikulin/vim-cyberpunk",
     "labels": [
       "vim-script"
