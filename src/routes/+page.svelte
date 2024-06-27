@@ -101,7 +101,7 @@
 	</section>
 
 	<!-- Experience Section -->
-	<section class="experience mt-12 text-right sm:mt-5">
+	<section class="experience mt-12 text-right sm:mt-10">
 		<h2 class="bg-title mb-0 text-2xl uppercase sm:mb-2 sm:text-3xl">
 			&nbsp;Experience<span class="blink-animation">_</span>&nbsp;
 		</h2>
