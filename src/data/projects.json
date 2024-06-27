@@ -1,92 +1,119 @@
 [
-	{
-		"repo": "ioquake3-mac-install",
-		"thumbnail": "https://github.com/diegoulloao/ioquake3-mac-install/raw/master/logo.png",
-		"description": "install ioquake3 on macOs in one command (apple silicon support)",
-		"url": "https://github.com/diegoulloao/ioquake3-mac-install",
-		"labels": ["bash"]
-	},
-	{
-		"repo": "neofusion.nvim",
-		"description": "nvim theme blending lava red and ice blue for a vibrant coding experience",
-		"thumbnail": "https://i.ibb.co/87DhmZx/logo.jpg",
-		"url": "https://github.com/diegoulloao/neofusion.nvim",
-		"labels": ["lua"]
-	},
-	{
-		"repo": "nvim-file-location",
-		"description": "neovim plugin to copy to clipboard the file path and line where cursor is",
-		"url": "https://github.com/diegoulloao/nvim-file-location",
-		"labels": ["lua"]
-	},
-	{
-		"repo": "yup-es",
-		"description": "es-ES locale for yup",
-		"url": "https://github.com/diegoulloao/yup-es",
-		"labels": ["javascript"]
-	},
-	{
-		"repo": "bananasplit-js",
-		"thumbnail": "https://bananasplit.js.org/assets/images/bananasplit-logo.png",
-		"description": "express.js superset template that brings to you a background to quickly develop your app",
-		"url": "https://github.com/bananasplit-js/bananasplit-js",
-		"labels": ["typescript", "javascript"]
-	},
-	{
-		"repo": "router-dex",
-		"thumbnail": "https://raw.githubusercontent.com/diegoulloao/router-dex/dev/public/capture.png",
-		"description": "route and middleware inspector for express.js",
-		"url": "https://github.com/bananasplit-js/router-dex",
-		"labels": ["typescript"]
-	},
-	{
-		"repo": "vercel-cors",
-		"description": "simple CORS library for vercel serverless functions",
-		"url": "https://github.com/diegoulloao/vercel-cors",
-		"labels": ["typescript"]
-	},
-	{
-		"repo": "ensambler-vscode-theme",
-		"thumbnail": "https://i.imgur.com/J9jjFfp.png",
-		"description": "beautiful vscode theme, now available at the extension marketplace",
-		"url": "https://github.com/diegoulloao/ensambler-vscode-theme",
-		"labels": ["json"]
-	},
-	{
-		"repo": "bananasplit-client",
-		"thumbnail": "https://bananasplit.js.org/assets/images/bananasplit-client.svg",
-		"description": "bananasplit-js cli for command-line",
-		"url": "https://github.com/bananasplit-js/bananasplit-client",
-		"labels": ["javascript"]
-	},
-	{
-		"repo": "vim-cyberpunk",
-		"thumbnail": "https://github.com/thedenisnikulin/vim-cyberpunk/raw/master/screenshots/cyberpunk.png",
-		"description": "cyberpunk colorscheme for vim, includes vim-airline and vim-lighline theme (which I contributed for)",
-		"url": "https://github.com/thedenisnikulin/vim-cyberpunk",
-		"labels": ["vim-script"],
-		"contributor": true
-	},
-	{
-		"repo": "alias-hq",
-		"thumbnail": "https://raw.githubusercontent.com/davestewart/alias-hq/master/docs/assets/logo.png",
-		"description": "the end-to-end solution for configuring, refactoring, maintaining and using path aliases. I introduced an automatic alias path registration for node.",
-		"url": "https://github.com/davestewart/alias-hq",
-		"labels": ["javascript"],
-		"contributor": true
-	},
-	{
-		"repo": "ioquake3-server-gcloud",
-		"description": "the fastest way to deploy your own ioquake3 server using docker, kubernetes and google cloud, all in one command",
-		"thumbnail": "https://github.com/diegoulloao/ioquake3-mac-install/raw/master/logo.png",
-		"url": "https://github.com/diegoulloao/ioquake3-server-gcloud",
-		"labels": ["sh"]
-	},
-	{
-		"repo": "lottie-colorify",
-		"description": "change lottie animation colors from code, I added an improvement to the way of replacing colors",
-		"url": "https://github.com/xxmuaddib/lottie-colorify",
-		"labels": ["javascript"],
-		"contributor": true
-	}
+  {
+    "repo": "ioquake3-mac-install",
+    "thumbnail": "https://github.com/diegoulloao/ioquake3-mac-install/raw/master/logo.png",
+    "description": "install ioquake3 on macOs in one command (apple silicon support)",
+    "url": "https://github.com/diegoulloao/ioquake3-mac-install",
+    "labels": [
+      "bash"
+    ]
+  },
+  {
+    "repo": "neofusion.nvim",
+    "description": "nvim theme blending lava red and ice blue for a vibrant coding experience",
+    "thumbnail": "https://i.ibb.co/87DhmZx/logo.jpg",
+    "url": "https://github.com/diegoulloao/neofusion.nvim",
+    "labels": [
+      "lua"
+    ]
+  },
+  {
+    "repo": "nvim-file-location",
+    "description": "neovim plugin to copy to clipboard the file path and line where cursor is",
+    "url": "https://github.com/diegoulloao/nvim-file-location",
+    "labels": [
+      "lua"
+    ]
+  },
+  {
+    "repo": "yup-es",
+    "description": "es-ES locale for yup",
+    "url": "https://github.com/diegoulloao/yup-es",
+    "labels": [
+      "javascript"
+    ]
+  },
+  {
+    "repo": "bananasplit-js",
+    "thumbnail": "https://bananasplit.js.org/assets/images/bananasplit-logo.png",
+    "description": "express.js superset template that brings to you a background to quickly develop your app",
+    "url": "https://github.com/bananasplit-js/bananasplit-js",
+    "labels": [
+      "typescript",
+      "javascript"
+    ]
+  },
+  {
+    "repo": "router-dex",
+    "thumbnail": "https://raw.githubusercontent.com/diegoulloao/router-dex/dev/public/capture.png",
+    "description": "route and middleware inspector for express.js",
+    "url": "https://github.com/bananasplit-js/router-dex",
+    "labels": [
+      "typescript"
+    ]
+  },
+  {
+    "repo": "vercel-cors",
+    "description": "simple CORS library for vercel serverless functions",
+    "url": "https://github.com/diegoulloao/vercel-cors",
+    "labels": [
+      "typescript"
+    ]
+  },
+  {
+    "repo": "ensambler-vscode-theme",
+    "thumbnail": "https://i.imgur.com/J9jjFfp.png",
+    "description": "beautiful vscode theme, now available at the extension marketplace",
+    "url": "https://github.com/diegoulloao/ensambler-vscode-theme",
+    "labels": [
+      "json"
+    ]
+  },
+  {
+    "repo": "bananasplit-client",
+    "thumbnail": "https://bananasplit.js.org/assets/images/bananasplit-client.svg",
+    "description": "bananasplit-js cli for command-line",
+    "url": "https://github.com/bananasplit-js/bananasplit-client",
+    "labels": [
+      "javascript"
+    ]
+  },
+  {
+    "repo": "vim-cyberpunk",
+    "thumbnail": "https://github.com/thedenisnikulin/vim-cyberpunk/raw/master/screenshots/cyberpunk.png",
+    "description": "cyberpunk colorscheme for vim, includes vim-airline and vim-lighline theme (which I contributed for)",
+    "url": "https://github.com/thedenisnikulin/vim-cyberpunk",
+    "labels": [
+      "vim-script"
+    ],
+    "contributor": true
+  },
+  {
+    "repo": "alias-hq",
+    "thumbnail": "https://raw.githubusercontent.com/davestewart/alias-hq/master/docs/assets/logo.png",
+    "description": "the end-to-end solution for configuring, refactoring, maintaining and using path aliases. I introduced an automatic alias path registration for node.",
+    "url": "https://github.com/davestewart/alias-hq",
+    "labels": [
+      "javascript"
+    ],
+    "contributor": true
+  },
+  {
+    "repo": "ioquake3-server-gcloud",
+    "description": "the fastest way to deploy your own ioquake3 server using docker, kubernetes and google cloud, all in one command",
+    "thumbnail": "https://github.com/diegoulloao/ioquake3-mac-install/raw/master/logo.png",
+    "url": "https://github.com/diegoulloao/ioquake3-server-gcloud",
+    "labels": [
+      "sh"
+    ]
+  },
+  {
+    "repo": "lottie-colorify",
+    "description": "change lottie animation colors from code, I added an improvement to the way of replacing mutiple colors",
+    "url": "https://github.com/xxmuaddib/lottie-colorify",
+    "labels": [
+      "javascript"
+    ],
+    "contributor": true
+  }
 ]
