@@ -86,7 +86,7 @@
 		"repo": "lottie-colorify",
 		"description": "change lottie animation colors from code, I added an improvement to the way of replacing mutiple colors",
 		"url": "https://github.com/xxmuaddib/lottie-colorify",
-		"labels": ["javascript"],
+		"labels": ["typescript"],
 		"contributor": true
 	}
 ]
