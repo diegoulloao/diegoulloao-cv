@@ -143,7 +143,7 @@
 
 	{#if !!data.sponsors?.length}
 		<div
-			class="border-purple m-auto mt-3 h-24 w-1 border-l-2 border-dashed opacity-40 lg:mt-10 lg:h-36"
+			class="border-purple m-auto h-20 w-1 border-l-2 border-dashed opacity-40 lg:mt-10 lg:h-36"
 		/>
 
 		<section class="sponsors mt-8 flex flex-col items-center space-y-6 lg:mt-10">
