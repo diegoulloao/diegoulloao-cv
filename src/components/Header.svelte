@@ -28,7 +28,7 @@
 		<span class="flex">
 			<a
 				class="text-purple no-hover border-purple border-b-2 pb-1"
-				href="/diego-ulloa-resume-2024.pdf"
+				href="/diego-ulloa-cv.pdf"
 				download><span class="hidden sm:inline">Get</span> Resume</a
 			>
 			<img
