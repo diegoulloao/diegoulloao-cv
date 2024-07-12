@@ -6,7 +6,7 @@
     "position": "Senior Frontend Developer",
     "location": "San Francisco, EEUU [remote]",
     "type": "remote",
-    "description": "Responsible of architecting and coding the core of the product, mentoring developers, reviewing coworkers code, and sharing knowledge about best practices to the team mates. The product is utilized by global renowned companies like Disney Hotstar and Postman."
+    "description": "Responsible of architecting and coding the core of the product, mentoring developers, reviewing code, and sharing knowledge about best practices. Peoplebox's product is utilized by world-wide renowned companies like Disney+ Hotstar and Postman."
   },
   {
     "company": "Unboxable",
@@ -15,7 +15,7 @@
     "position": "Frontend Developer",
     "location": "Tel Aviv, Israel [remote]",
     "type": "remote",
-    "description": "Responsible for thinking up and coding customized frontend/backend solutions tailored to meet the specific requirements of the company's product at his particular point of growing. Providing unique solutions that could not be found elsewhere by the team."
+    "description": "Responsible for designing and coding customized frontend & automation solutions tailored to meet the specific requirements of the company at it's particular point of growing. Provided unique solutions that could not be found elsewhere by the team."
   },
   {
     "company": "Ensambler",
@@ -24,7 +24,7 @@
     "position": "Founder | Backend Developer",
     "location": "Santiago, Chile",
     "type": "presencial",
-    "description": "Founder of a small team of developers, overseeing decision-making, and backend developer. In charge of managing the entire architecture of the services that our company offers to our customers playing the role of leading my fellow founders."
+    "description": "Founder of a small team of developers, overseeing decision-making, and backend developer. Responsible for managing the entire architecture of the services the company offers to customers, while also leading my fellow founders."
   },
   {
     "company": "Neoproyex",
@@ -33,7 +33,7 @@
     "position": "Fullstack Developer",
     "location": "Santiago, Chile",
     "type": "presencial",
-    "description": "Second time around. Close collaboration with ui designers for websites & applications development, crafting solutions for bunch types of local businesses in Chile, providing to the company reputation of being flexible and proficient in our work."
+    "description": "Second time around. Worked closely with UI designers on website and application development, crafting solutions for various local businesses in Chile. My collaboration has earned the company a reputation for being flexible and proficient in our work."
   },
   {
     "company": "Freelancer",
@@ -42,7 +42,7 @@
     "position": "Fullstack Developer",
     "location": "Angol, Chile",
     "type": "home",
-    "description": "Freelance developer for 3 years, crafting unique websites and ui designs for my own customers. Being aware of using the latest development tools and well stablished technologies for all the projects. Author of open source jquery plugins & libraries."
+    "description": "Crafting unique websites and UI designs for my clients. Consistently utilized the latest development tools and well- stablished technologies in all projects. Author of open source jQuery plugins and PHP libraries."
   },
   {
     "company": "Neoproyex",
@@ -51,6 +51,6 @@
     "position": "Fullstack Developer",
     "location": "Santiago, Chile [remote]",
     "type": "remote",
-    "description": "Websites development using the latest web technologies at the time. Serving the needs of a variety of local businesses such as laundries, hotels, real estate portals, metallurgical companies, highlighting well-known companies in Chile like Cardinale®."
+    "description": "Developing websites using the latest web technologies of the time. Serving a variety of local businesses including hotels, real estate portals, and metallurgical factories. Highlighting well-known companies in Chile like Cardinale® ."
   }
 ]
