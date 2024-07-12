@@ -77,7 +77,7 @@
 
 	<div class="text-sm leading-6 text-gray-600 sm:text-[16px]">
 		<p>
-			Experienced Fullstack Developer with a passion for Open Source contributions. Self-taught
+			Experienced Fullstack Developer, passionate about Open Source contributions. Self- taught
 			coder since age 16.
 		</p>
 
@@ -85,7 +85,7 @@
 
 		<p>
 			Bringing {yearsExperience} years of experience, I'm dedicated to helping companies build their
-			products, with a primary focus on Frontend development.
+			products, primarily focusing on Frontend.
 		</p>
 
 		<br />
