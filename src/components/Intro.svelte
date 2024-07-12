@@ -77,8 +77,8 @@
 
 	<div class="text-sm leading-6 text-gray-600 sm:text-[16px]">
 		<p>
-			Experienced Fullstack Developer, passionate about Open Source contributions. Self- taught
-			coder since age 16.
+			Experienced Fullstack Developer, passionate about Open Source contributions. Self-taught coder
+			since age 16.
 		</p>
 
 		<br />
